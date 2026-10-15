@@ -33,7 +33,7 @@ J'aime construire des applications complètes autour des données : interface, l
 | **Dashboard supermarché** | Tableau de bord d'analyse et de visualisation des ventes d'un supermarché. | Python, Jupyter | [dashboard-supermarche](https://github.com/Chaymae-El-Bahloul/dashboard-supermarche) |
 | **Gestion de congés** (stage 2025) | Suivi des employés, demandes et validation hiérarchique des congés. Interface bilingue français/arabe pour la Commune de Kelâa des Sraghna. | Flask, SQLAlchemy, SQLite . | — |
 | **AI ChatBot** | Chatbot multilingue basé sur l'API Gemini. | Python, Gemini API | — |
-| **stadium_db** | Application de bureau de gestion d'étudiants (CRUD) connectée à MySQL. | C, GTK, MySQL.| [stadium_d] ( https://github.com/Chaymae-El-Bahloul/stadium_db) |
+| **stadium_db** | Application de bureau de gestion d'étudiants (CRUD) connectée à MySQL. | C, GTK, MySQL.| [stadium_d]( https://github.com/Chaymae-El-Bahloul/stadium_db) |
 ---
 
 ## Stack
