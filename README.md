@@ -31,10 +31,9 @@ J'aime construire des applications complètes autour des données : interface, l
 | **GraphGen** (en binôme) | Transforme un fichier CSV ou Excel en analyse exploratoire (profil des colonnes, valeurs manquantes, corrélations) et en graphiques interactifs. | Flask, pandas, Plotly, Docker, tests et CI | [GraphGen](https://github.com/Chaymae-El-Bahloul/GraphGen) |
 | **Smart Data Pipeline** (en binôme, PFE) | Pipeline de données auto-adaptatif, réalisé pour le projet de fin d'études. | Python, pipeline de données | [smart-data-pipeline-pfe](https://github.com/Samah-boudallaa/smart-data-pipeline-pfe) |
 | **Dashboard supermarché** | Tableau de bord d'analyse et de visualisation des ventes d'un supermarché. | Python, Jupyter | [dashboard-supermarche](https://github.com/Chaymae-El-Bahloul/dashboard-supermarche) |
-| **Gestion de congés** (stage 2025) | Suivi des employés, demandes et validation hiérarchique des congés. Interface bilingue français/arabe pour la Commune de Kelâa des Sraghna. | Flask, SQLAlchemy, SQLite | — |
+| **Gestion de congés** (stage 2025) | Suivi des employés, demandes et validation hiérarchique des congés. Interface bilingue français/arabe pour la Commune de Kelâa des Sraghna. | Flask, SQLAlchemy, SQLite .
 | **AI ChatBot** | Chatbot multilingue basé sur l'API Gemini. | Python, Gemini API | — |
-| **stadium_db** | Application de bureau de gestion d'étudiants (CRUD) connectée à MySQL. | C, GTK, MySQL | — |
-
+| **stadium_db** | Application de bureau de gestion d'étudiants (CRUD) connectée à MySQL. | C, GTK, MySQL ( https://github.com/Chaymae-El-Bahloul/stadium_db)
 ---
 
 ## Stack
