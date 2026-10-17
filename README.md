@@ -19,7 +19,7 @@ Titulaire d'un **DUT en Ingénierie des Données**, je prépare actuellement un 
 
 J'aime construire des applications complètes autour des données : interface, logique métier, base de données et intelligence artificielle. Chaque projet est l'occasion d'apprendre une nouvelle brique, de la paie au chatbot en passant par la visualisation.
 
-📍 El Kelâa des Sraghna, Maroc
+ El Kelâa des Sraghna, Maroc
 
 ---
 
@@ -86,4 +86,4 @@ J'aime construire des applications complètes autour des données : interface, l
 
 Une question, une idée de projet ou envie d'échanger ?
 
-📧 [c.elbahloul2898@uca.ac.ma](mailto:c.elbahloul2898@uca.ac.ma) · 💼 [LinkedIn](https://www.linkedin.com/in/chaymae-el-bahloul) · 🌐 [Portfolio](https://chaymae-el-bahloul.github.io)
+[c.elbahloul2898@uca.ac.ma](mailto:c.elbahloul2898@uca.ac.ma) ·  [LinkedIn](https://www.linkedin.com/in/chaymae-el-bahloul) ·  [Portfolio](https://chaymae-el-bahloul.github.io)
