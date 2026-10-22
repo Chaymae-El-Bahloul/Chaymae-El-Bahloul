@@ -166,14 +166,7 @@ chaymae = {
 
 J'aime construire des applications complètes autour des données : interface, logique métier, base de données et intelligence artificielle. Chaque projet est l'occasion d'apprendre une nouvelle brique, de la paie au chatbot en passant par la visualisation.
 
-```mermaid
-flowchart LR
-    A([Une idée]) --> B[(Base de données)]
-    B --> C[Logique métier]
-    C --> D[Interface]
-    D --> E{{Une touche d'IA}}
-    E --> F([Application prête])
-```
+<p align="center"><img src="assets/method.svg" alt="Ma méthode : une idée, une base de données, la logique métier, l'interface, une touche d'IA, puis une application prête" width="100%"></p>
 
 ---
 
