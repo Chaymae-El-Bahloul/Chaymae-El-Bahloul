@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Frise de mon parcours de 2023 à 2027">
+<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="920" y2="0"><stop offset="0" stop-color="#FFB84D"/><stop offset=".5" stop-color="#14B8A6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient><style>.s{font-family:Georgia,serif}.m{font-family:ui-monospace,Menlo,monospace}.ln{stroke-dasharray:900;stroke-dashoffset:900;animation:dr 2.6s ease-out forwards}@keyframes dr{to{stroke-dashoffset:0}}.nd{opacity:0;animation:po .7s ease-out forwards}@keyframes po{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}.pl{transform-box:fill-box;transform-origin:center;animation:pl 2s ease-out infinite}@keyframes pl{0%{transform:scale(1);opacity:.7}100%{transform:scale(2.6);opacity:0}}</style></defs>
+<rect width="1000" height="300" rx="18" fill="#0B1020"/><line class="ln" x1="80" y1="150" x2="920" y2="150" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+<g class="nd" style="animation-delay:0.4s"><circle cx="100" cy="150" r="11" fill="#0B1020" stroke="#FFB84D" stroke-width="4"/>
+<line x1="100" y1="138" x2="100" y2="116" stroke="#FFB84D" stroke-opacity=".6"/>
+<text class="m" x="100" y="58" text-anchor="middle" font-size="14" fill="#FFB84D">2023 – 2024</text><text class="s" x="100" y="82" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">Baccalauréat</text><text class="m" x="100" y="103" text-anchor="middle" font-size="13" fill="#cfc6bd">Sciences Physiques</text></g>
+<g class="nd" style="animation-delay:0.8500000000000001s"><circle cx="300" cy="150" r="11" fill="#0B1020" stroke="#14B8A6" stroke-width="4"/>
+<line x1="300" y1="162" x2="300" y2="186" stroke="#14B8A6" stroke-opacity=".6"/>
+<text class="m" x="300" y="206" text-anchor="middle" font-size="14" fill="#14B8A6">2024 – 2026</text><text class="s" x="300" y="230" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">DUT</text><text class="m" x="300" y="251" text-anchor="middle" font-size="13" fill="#cfc6bd">Ingénierie des Données</text></g>
+<g class="nd" style="animation-delay:1.3s"><circle cx="500" cy="150" r="11" fill="#0B1020" stroke="#FF6B35" stroke-width="4"/>
+<line x1="500" y1="138" x2="500" y2="116" stroke="#FF6B35" stroke-opacity=".6"/>
+<text class="m" x="500" y="58" text-anchor="middle" font-size="14" fill="#FF6B35">Juin – juil. 2025</text><text class="s" x="500" y="82" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">Stage</text><text class="m" x="500" y="103" text-anchor="middle" font-size="13" fill="#cfc6bd">Gestion de congés</text></g>
+<g class="nd" style="animation-delay:1.75s"><circle cx="700" cy="150" r="11" fill="#0B1020" stroke="#FF6B35" stroke-width="4"/>
+<line x1="700" y1="162" x2="700" y2="186" stroke="#FF6B35" stroke-opacity=".6"/>
+<text class="m" x="700" y="206" text-anchor="middle" font-size="14" fill="#FF6B35">Avril – juin 2026</text><text class="s" x="700" y="230" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">Stage</text><text class="m" x="700" y="251" text-anchor="middle" font-size="13" fill="#cfc6bd">RC Gestion</text></g>
+<g class="nd" style="animation-delay:2.2s"><circle cx="900" cy="150" r="11" fill="#0B1020" stroke="#8B5CF6" stroke-width="4"/>
+<circle class="pl" cx="900" cy="150" r="11" fill="#8B5CF6"/>
+<line x1="900" y1="138" x2="900" y2="116" stroke="#8B5CF6" stroke-opacity=".6"/>
+<text class="m" x="900" y="58" text-anchor="middle" font-size="14" fill="#8B5CF6">2026 – 2027</text><text class="s" x="900" y="82" text-anchor="middle" font-size="19" font-weight="700" fill="#fff">Bachelor</text><text class="m" x="900" y="103" text-anchor="middle" font-size="13" fill="#cfc6bd">Science des Données</text></g>
+</svg>

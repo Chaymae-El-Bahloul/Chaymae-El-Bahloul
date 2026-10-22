@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" role="img" aria-label="Mes outils en orbite autour de Data et IA">
+<defs><radialGradient id="c" cx=".5" cy=".4" r=".7"><stop offset="0" stop-color="#FFB84D"/><stop offset=".55" stop-color="#FF6B35"/><stop offset="1" stop-color="#8B5CF6"/></radialGradient>
+<radialGradient id="bg" cx=".5" cy=".5" r=".75"><stop offset="0" stop-color="#1a1230"/><stop offset="1" stop-color="#0B1020"/></radialGradient>
+<style>.m{font-family:ui-monospace,Menlo,Consolas,monospace}.s{font-family:Georgia,serif}
+.sp{transform-origin:500px 250px;animation:sp var(--d) linear infinite}.rv{animation-direction:reverse}
+.ch{transform-box:fill-box;transform-origin:center;animation:sp var(--d) linear infinite reverse}.ch.rv2{animation-direction:normal}
+@keyframes sp{to{transform:rotate(360deg)}}
+.pu{transform-origin:500px 250px;animation:pu 3s ease-in-out infinite}@keyframes pu{50%{transform:scale(1.06)}}
+</style></defs><rect width="1000" height="500" rx="18" fill="url(#bg)"/>
+<circle cx="645" cy="138" r="1.4" fill="#fff" opacity="0.3"/>
+<circle cx="822" cy="361" r="1.4" fill="#fff" opacity="0.5"/>
+<circle cx="952" cy="279" r="0.8" fill="#fff" opacity="0.3"/>
+<circle cx="802" cy="490" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="61" cy="469" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="388" cy="248" r="0.8" fill="#fff" opacity="0.3"/>
+<circle cx="564" cy="60" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="21" cy="382" r="0.8" fill="#fff" opacity="0.3"/>
+<circle cx="294" cy="101" r="1" fill="#fff" opacity="0.15"/>
+<circle cx="788" cy="416" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="640" cy="324" r="1" fill="#fff" opacity="0.15"/>
+<circle cx="143" cy="8" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="800" cy="118" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="304" cy="168" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="905" cy="355" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="194" cy="489" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="923" cy="204" r="1" fill="#fff" opacity="0.15"/>
+<circle cx="377" cy="220" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="278" cy="41" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="845" cy="316" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="618" cy="355" r="1.4" fill="#fff" opacity="0.3"/>
+<circle cx="75" cy="166" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="500" cy="364" r="1" fill="#fff" opacity="0.15"/>
+<circle cx="500" cy="249" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="66" cy="139" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="374" cy="440" r="1" fill="#fff" opacity="0.15"/>
+<circle cx="570" cy="411" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="393" cy="304" r="0.8" fill="#fff" opacity="0.3"/>
+<circle cx="55" cy="370" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="986" cy="108" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="959" cy="427" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="532" cy="189" r="1.4" fill="#fff" opacity="0.3"/>
+<circle cx="802" cy="244" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="774" cy="407" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="45" cy="229" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="356" cy="270" r="1.4" fill="#fff" opacity="0.3"/>
+<circle cx="948" cy="83" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="954" cy="367" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="327" cy="359" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="189" cy="416" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="160" cy="377" r="1.4" fill="#fff" opacity="0.3"/>
+<circle cx="503" cy="90" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="90" cy="315" r="1.4" fill="#fff" opacity="0.3"/>
+<circle cx="40" cy="129" r="1.4" fill="#fff" opacity="0.5"/>
+<circle cx="360" cy="431" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="674" cy="223" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="946" cy="334" r="0.8" fill="#fff" opacity="0.3"/>
+<circle cx="350" cy="437" r="0.8" fill="#fff" opacity="0.15"/>
+<circle cx="757" cy="296" r="0.8" fill="#fff" opacity="0.5"/>
+<circle cx="926" cy="411" r="1" fill="#fff" opacity="0.15"/>
+<circle cx="180" cy="230" r="1" fill="#fff" opacity="0.15"/>
+<circle cx="68" cy="440" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="152" cy="240" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="542" cy="240" r="1" fill="#fff" opacity="0.5"/>
+<circle cx="755" cy="170" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="306" cy="248" r="1" fill="#fff" opacity="0.15"/>
+<circle cx="123" cy="201" r="1.4" fill="#fff" opacity="0.15"/>
+<circle cx="650" cy="487" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="192" cy="53" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="535" cy="408" r="1.4" fill="#fff" opacity="0.5"/>
+<circle cx="377" cy="40" r="1" fill="#fff" opacity="0.5"/>
+<circle cx="609" cy="347" r="0.8" fill="#fff" opacity="0.3"/>
+<circle cx="380" cy="294" r="1.4" fill="#fff" opacity="0.5"/>
+<circle cx="295" cy="435" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="796" cy="361" r="1.4" fill="#fff" opacity="0.3"/>
+<circle cx="987" cy="492" r="1" fill="#fff" opacity="0.5"/>
+<circle cx="190" cy="305" r="0.8" fill="#fff" opacity="0.3"/>
+<circle cx="568" cy="404" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="695" cy="148" r="1" fill="#fff" opacity="0.3"/>
+<circle cx="844" cy="264" r="1.4" fill="#fff" opacity="0.5"/>
+<circle cx="500" cy="250" r="95" fill="none" stroke="#FF6B35" stroke-opacity=".35" stroke-dasharray="3 7"/>
+<circle cx="500" cy="250" r="165" fill="none" stroke="#14B8A6" stroke-opacity=".35" stroke-dasharray="3 7"/>
+<circle cx="500" cy="250" r="232" fill="none" stroke="#8B5CF6" stroke-opacity=".35" stroke-dasharray="3 7"/>
+<g class="sp " style="--d:32s">
+<g class="ch " style="--d:32s"><rect x="557.8" y="236.0" width="74.4" height="28" rx="14" fill="#FF6B35" fill-opacity=".18" stroke="#FF6B35"/><text class="m" x="595.0" y="255.0" text-anchor="middle" font-size="13" fill="#fff">Python</text></g>
+<g class="ch " style="--d:32s"><rect x="522.9" y="318.3" width="49.2" height="28" rx="14" fill="#FF6B35" fill-opacity=".18" stroke="#FF6B35"/><text class="m" x="547.5" y="337.3" text-anchor="middle" font-size="13" fill="#fff">SQL</text></g>
+<g class="ch " style="--d:32s"><rect x="436.3" y="318.3" width="32.4" height="28" rx="14" fill="#FF6B35" fill-opacity=".18" stroke="#FF6B35"/><text class="m" x="452.5" y="337.3" text-anchor="middle" font-size="13" fill="#fff">R</text></g>
+<g class="ch " style="--d:32s"><rect x="351.0" y="236.0" width="108.0" height="28" rx="14" fill="#FF6B35" fill-opacity=".18" stroke="#FF6B35"/><text class="m" x="405.0" y="255.0" text-anchor="middle" font-size="13" fill="#fff">JavaScript</text></g>
+<g class="ch " style="--d:32s"><rect x="427.9" y="153.7" width="49.2" height="28" rx="14" fill="#FF6B35" fill-opacity=".18" stroke="#FF6B35"/><text class="m" x="452.5" y="172.7" text-anchor="middle" font-size="13" fill="#fff">PHP</text></g>
+<g class="ch " style="--d:32s"><rect x="531.3" y="153.7" width="32.4" height="28" rx="14" fill="#FF6B35" fill-opacity=".18" stroke="#FF6B35"/><text class="m" x="547.5" y="172.7" text-anchor="middle" font-size="13" fill="#fff">C</text></g>
+</g>
+<g class="sp rv" style="--d:48s">
+<g class="ch rv2" style="--d:48s"><rect x="632.0" y="236.0" width="66.0" height="28" rx="14" fill="#14B8A6" fill-opacity=".18" stroke="#14B8A6"/><text class="m" x="665.0" y="255.0" text-anchor="middle" font-size="13" fill="#fff">Flask</text></g>
+<g class="ch rv2" style="--d:48s"><rect x="532.7" y="378.9" width="99.6" height="28" rx="14" fill="#14B8A6" fill-opacity=".18" stroke="#14B8A6"/><text class="m" x="582.5" y="397.9" text-anchor="middle" font-size="13" fill="#fff">Streamlit</text></g>
+<g class="ch rv2" style="--d:48s"><rect x="363.5" y="378.9" width="108.0" height="28" rx="14" fill="#14B8A6" fill-opacity=".18" stroke="#14B8A6"/><text class="m" x="417.5" y="397.9" text-anchor="middle" font-size="13" fill="#fff">SQLAlchemy</text></g>
+<g class="ch rv2" style="--d:48s"><rect x="297.8" y="236.0" width="74.4" height="28" rx="14" fill="#14B8A6" fill-opacity=".18" stroke="#14B8A6"/><text class="m" x="335.0" y="255.0" text-anchor="middle" font-size="13" fill="#fff">Docker</text></g>
+<g class="ch rv2" style="--d:48s"><rect x="392.9" y="93.1" width="49.2" height="28" rx="14" fill="#14B8A6" fill-opacity=".18" stroke="#14B8A6"/><text class="m" x="417.5" y="112.1" text-anchor="middle" font-size="13" fill="#fff">Git</text></g>
+<g class="ch rv2" style="--d:48s"><rect x="528.5" y="93.1" width="108.0" height="28" rx="14" fill="#14B8A6" fill-opacity=".18" stroke="#14B8A6"/><text class="m" x="582.5" y="112.1" text-anchor="middle" font-size="13" fill="#fff">Gemini API</text></g>
+</g>
+<g class="sp " style="--d:64s">
+<g class="ch " style="--d:64s"><rect x="699.0" y="236.0" width="66.0" height="28" rx="14" fill="#8B5CF6" fill-opacity=".18" stroke="#8B5CF6"/><text class="m" x="732.0" y="255.0" text-anchor="middle" font-size="13" fill="#fff">MySQL</text></g>
+<g class="ch " style="--d:64s"><rect x="607.4" y="417.4" width="74.4" height="28" rx="14" fill="#8B5CF6" fill-opacity=".18" stroke="#8B5CF6"/><text class="m" x="644.6" y="436.4" text-anchor="middle" font-size="13" fill="#fff">SQLite</text></g>
+<g class="ch " style="--d:64s"><rect x="415.4" y="462.2" width="66.0" height="28" rx="14" fill="#8B5CF6" fill-opacity=".18" stroke="#8B5CF6"/><text class="m" x="448.4" y="481.2" text-anchor="middle" font-size="13" fill="#fff">Spark</text></g>
+<g class="ch " style="--d:64s"><rect x="258.0" y="336.7" width="66.0" height="28" rx="14" fill="#8B5CF6" fill-opacity=".18" stroke="#8B5CF6"/><text class="m" x="291.0" y="355.7" text-anchor="middle" font-size="13" fill="#fff">Kafka</text></g>
+<g class="ch " style="--d:64s"><rect x="253.8" y="135.3" width="74.4" height="28" rx="14" fill="#8B5CF6" fill-opacity=".18" stroke="#8B5CF6"/><text class="m" x="291.0" y="154.3" text-anchor="middle" font-size="13" fill="#fff">Hadoop</text></g>
+<g class="ch " style="--d:64s"><rect x="402.8" y="9.8" width="91.2" height="28" rx="14" fill="#8B5CF6" fill-opacity=".18" stroke="#8B5CF6"/><text class="m" x="448.4" y="28.8" text-anchor="middle" font-size="13" fill="#fff">Power BI</text></g>
+<g class="ch " style="--d:64s"><rect x="603.2" y="54.6" width="82.8" height="28" rx="14" fill="#8B5CF6" fill-opacity=".18" stroke="#8B5CF6"/><text class="m" x="644.6" y="73.6" text-anchor="middle" font-size="13" fill="#fff">Jupyter</text></g>
+</g>
+<g class="pu"><circle cx="500" cy="250" r="58" fill="url(#c)"/><text class="s" x="500" y="246" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">Data</text><text class="s" x="500" y="272" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">&amp; IA</text></g>
+</svg>
