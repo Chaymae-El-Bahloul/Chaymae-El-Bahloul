@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Chaymae El Bahloul, étudiante en Science des Données" width="100%">
+<img src="C:/Users/chaym/Desktop/header.svg" alt="Chaymae El Bahloul, étudiante en Science des Données" width="100%">
 
 <br>
 
