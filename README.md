@@ -245,6 +245,17 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
+## En chiffres
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/donut.svg" alt="Répartition de mes 7 projets par type : 3 applications web, 1 visualisation, 1 data engineering, 1 IA conversationnelle, 1 application de bureau" width="100%"></td>
+<td width="50%" align="center"><img src="assets/radar.svg" alt="Radar de ma boîte à outils : langages 6, web 4, bases de données 4, big data 6, IA 4, outils 6" width="100%"></td>
+</tr>
+</table>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
 ## Terminal interactif
 
 *Clique sur une commande pour voir la réponse.*
@@ -324,6 +335,8 @@ chaymae = {
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Git log
+
+<p align="center"><img src="assets/gantt.svg" alt="Frise chronologique : baccalauréat 2023-2024, DUT 2024-2026, stage gestion de congés 2025, stage RC Gestion 2026, Bachelor 2026-2027 en cours" width="100%"></p>
 
 *Mon parcours, raconté comme un historique de commits.*
 
