@@ -4,24 +4,24 @@
 
 <br>
 
-<a href="#terminal-interactif"><img alt="Terminal" src="https://img.shields.io/badge/%3E_Terminal-14110F?style=for-the-badge"></a>
-<a href="#projet-phare"><img alt="Projets" src="https://img.shields.io/badge/Projets-D9581F?style=for-the-badge"></a>
-<a href="#mes-outils"><img alt="Outils" src="https://img.shields.io/badge/Outils-D9581F?style=for-the-badge"></a>
-<a href="#mon-parcours"><img alt="Parcours" src="https://img.shields.io/badge/Parcours-D9581F?style=for-the-badge"></a>
-<a href="#contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-14110F?style=for-the-badge"></a>
+<a href="#terminal-interactif"><img alt="Terminal" src="https://img.shields.io/badge/%3E_Terminal-0B1020?style=for-the-badge"></a>
+<a href="#projet-phare"><img alt="Projets" src="https://img.shields.io/badge/Projets-FF6B35?style=for-the-badge"></a>
+<a href="#mes-outils"><img alt="Outils" src="https://img.shields.io/badge/Outils-14B8A6?style=for-the-badge"></a>
+<a href="#mon-parcours"><img alt="Parcours" src="https://img.shields.io/badge/Parcours-8B5CF6?style=for-the-badge"></a>
+<a href="#contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-0B1020?style=for-the-badge"></a>
 
 <br><br>
 
 *Je transforme des idées en applications complètes : de la base de données à l'interface, avec une touche d'intelligence artificielle.*
 
-![Projets](https://img.shields.io/badge/projets%20réalisés-6-D9581F?style=flat-square)
-![Stages](https://img.shields.io/badge/stages-2-D9581F?style=flat-square)
-![DUT](https://img.shields.io/badge/DUT-validé%202026-D9581F?style=flat-square)
-![Langues](https://img.shields.io/badge/langues-3-D9581F?style=flat-square)
+![Projets](https://img.shields.io/badge/projets%20réalisés-6-FF6B35?style=flat-square)
+![Stages](https://img.shields.io/badge/stages-2-14B8A6?style=flat-square)
+![DUT](https://img.shields.io/badge/DUT-validé%202026-8B5CF6?style=flat-square)
+![Langues](https://img.shields.io/badge/langues-3-FFB84D?style=flat-square)
 
 </div>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Choisis ton chemin
 
@@ -60,7 +60,7 @@ Interroge mon terminal, ou essaie mon portfolio interactif.
 </tr>
 </table>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Terminal interactif
 
@@ -149,9 +149,13 @@ Permission accordée.
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Qui suis-je ?
+
+<img align="right" src="assets/photo.png" alt="Chaymae El Bahloul" width="170">
+
+J'aime construire des applications complètes autour des données : interface, logique métier, base de données et intelligence artificielle. Chaque projet est l'occasion d'apprendre une nouvelle brique, de la paie au chatbot en passant par la visualisation.
 
 ```python
 chaymae = {
@@ -164,11 +168,11 @@ chaymae = {
 }
 ```
 
-J'aime construire des applications complètes autour des données : interface, logique métier, base de données et intelligence artificielle. Chaque projet est l'occasion d'apprendre une nouvelle brique, de la paie au chatbot en passant par la visualisation.
+<br clear="all">
 
 <p align="center"><img src="assets/method.svg" alt="Ma méthode : une idée, une base de données, la logique métier, l'interface, une touche d'IA, puis une application prête" width="100%"></p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Projet phare
 
@@ -177,7 +181,7 @@ J'aime construire des applications complètes autour des données : interface, l
 > Dossiers clients (personnes physiques et morales), déclarations fiscales, comptabilité simplifiée, paie et suivi de création d'entreprises.
 > Elle génère automatiquement bulletins de paie, fiches clients et rapports PDF, envoie des alertes et intègre un module d'IA. Trois rôles : **Admin**, **Comptable**, **Client**.
 >
-> ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![IA](https://img.shields.io/badge/IA-D9581F) ![PDF](https://img.shields.io/badge/Rapports%20PDF-14110F)
+> ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![IA](https://img.shields.io/badge/IA-FF6B35) ![PDF](https://img.shields.io/badge/Rapports%20PDF-0B1020)
 >
 > **[Voir le code](https://github.com/Chaymae-El-Bahloul/RC-GESTION)**
 
@@ -268,7 +272,7 @@ Application de bureau de gestion d'étudiants (création, lecture, modification,
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Mes outils
 
@@ -314,7 +318,7 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Mon parcours
 
@@ -336,7 +340,7 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Contact
 
@@ -344,10 +348,12 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 ### Une question, une idée de projet ?
 
-<a href="mailto:c.elbahloul2898@uca.ac.ma"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-D9581F?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="mailto:c.elbahloul2898@uca.ac.ma"><img alt="E-mail" src="https://img.shields.io/badge/E--mail-FF6B35?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/chaymae-el-bahloul"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="https://chaymae-el-bahloul.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio%20interactif-14110F?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+<a href="https://chaymae-el-bahloul.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio%20interactif-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
 
 <sub>Mon portfolio a un vrai terminal et un menu rapide : essaie Ctrl / ⌘ + K.</sub>
 
 </div>
+
+<p align="center"><img src="assets/footer.svg" alt="Construisons quelque chose avec des données" width="100%"></p>
