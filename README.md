@@ -14,14 +14,15 @@
 
 *Je transforme des idées en applications complètes : de la base de données à l'interface, avec une touche d'intelligence artificielle.*
 
-![Projets](https://img.shields.io/badge/projets%20réalisés-6-FF6B35?style=flat-square)
-![Stages](https://img.shields.io/badge/stages-2-14B8A6?style=flat-square)
-![DUT](https://img.shields.io/badge/DUT-validé%202026-8B5CF6?style=flat-square)
-![Langues](https://img.shields.io/badge/langues-3-FFB84D?style=flat-square)
+<img alt="Visites du profil" src="https://komarev.com/ghpvc/?username=Chaymae-El-Bahloul&label=Visites&color=FF6B35&style=flat-square">
+
+> *« Une idée, une base de données, une interface… et une touche d'IA. »*
 
 </div>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+<p align="center"><img src="assets/stats.svg" alt="Chiffres clés : 7 projets, 2 stages, 3 langues, 2 certifications" width="100%"></p>
 
 ## Choisis ton chemin
 
@@ -96,7 +97,7 @@ Docker, Git
 ```text
 RC Gestion             Streamlit, paie, rapports PDF, IA   (projet phare)
 GraphGen               Flask, Plotly, Docker               (en binôme)
-Smart Data Pipeline    pipeline de données                 (en binôme, PFE)
+Smart Data Pipeline    pipeline de données                 (en trinôme, PFE)
 Dashboard supermarché  Python, Jupyter
 Gestion de congés      Flask, bilingue FR/AR               (stage 2025)
 AI ChatBot             API Gemini
@@ -217,7 +218,7 @@ Importe un fichier **CSV ou Excel** et obtiens une analyse exploratoire (profil 
 </details>
 
 <details>
-<summary><b>Smart Data Pipeline</b> · projet de fin d'études <i>(en Trinome)</i></summary>
+<summary><b>Smart Data Pipeline</b> · projet de fin d'études <i>(en trinôme)</i></summary>
 <br>
 
 Pipeline de données auto-adaptatif, réalisé pour le projet de fin d'études du DUT.
@@ -276,9 +277,7 @@ Application de bureau de gestion d'étudiants (création, lecture, modification,
 
 ## Mes outils
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,r,js,php,c,flask,mysql,sqlite,spark,kafka,hadoop,powerbi,docker,git,linux,vscode&perline=8" alt="Outils : Python, R, JavaScript, PHP, C, Flask, MySQL, SQLite, Spark, Kafka, Hadoop, Power BI, Docker, Git, Linux, VS Code">
-</p>
+<p align="center"><img src="assets/orbit.svg" alt="Mes outils en orbite autour de Data et IA : Python, SQL, R, Flask, Streamlit, Docker, Git, MySQL, SQLite, Spark, Kafka, Hadoop, Power BI" width="100%"></p>
 
 *Déplie un domaine pour voir le détail.*
 
@@ -322,6 +321,12 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 ## Mon parcours
 
+<p align="center"><img src="assets/timeline.svg" alt="Frise : Baccalauréat 2023-2024, DUT 2024-2026, stage 2025, stage 2026, Bachelor 2026-2027" width="100%"></p>
+
+<details>
+<summary><b>Voir le détail du parcours</b></summary>
+<br>
+
 | Quand | Quoi |
 | --- | --- |
 | **2026 – 2027** | Bachelor Science des Données, EST Kelâa des Sraghna *(en cours)* |
@@ -329,6 +334,8 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 | **2024 – 2026** | DUT Ingénierie des Données, EST Kelâa des Sraghna, Université Cadi Ayyad |
 | **Juin – juillet 2025** | **Stage** : application web de gestion des congés pour la Commune de Kelâa des Sraghna |
 | **2023 – 2024** | Baccalauréat Sciences Physiques, Lycée Al Maghrib Al Arabi |
+
+</details>
 
 <details>
 <summary><b>Langues et certifications</b></summary>
@@ -339,6 +346,17 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 **Certifications :** Career Essentials in Generative AI · Learning Microsoft 365 Copilot
 
 </details>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Mon activité
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chaymae-El-Bahloul/Chaymae-El-Bahloul/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Serpent qui mange mes contributions GitHub" src="https://raw.githubusercontent.com/Chaymae-El-Bahloul/Chaymae-El-Bahloul/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+</p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
