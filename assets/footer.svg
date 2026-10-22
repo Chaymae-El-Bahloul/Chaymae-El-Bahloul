@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="1000" height="150" role="img" aria-label="Construisons quelque chose avec des données">
-<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#1c0f12"/></linearGradient><linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFB84D"/><stop offset=".5" stop-color="#2DD4BF"/><stop offset="1" stop-color="#B79CFF"/></linearGradient>
-<style>.w1{animation:wv 7s linear infinite}.w2{animation:wv 11s linear infinite reverse}@keyframes wv{to{transform:translateX(-400px)}}.s{font-family:Georgia,serif}.m{font-family:ui-monospace,Menlo,Consolas,monospace}</style></defs>
-<rect width="1000" height="150" fill="url(#b)"/>
-<g class="w1"><path d="M0,120 Q50,106 100,120 T200,120 Q250,106 300,120 T400,120 Q450,106 500,120 T600,120 Q650,106 700,120 T800,120 Q850,106 900,120 T1000,120 Q1050,106 1100,120 T1200,120 Q1250,106 1300,120 T1400,120 L1400,340 L0,340 Z" fill="#14B8A6" opacity="0.28"/></g>
-<g class="w2"><path d="M0,130 Q50,120 100,130 T200,130 Q250,120 300,130 T400,130 Q450,120 500,130 T600,130 Q650,120 700,130 T800,130 Q850,120 900,130 T1000,130 Q1050,120 1100,130 T1200,130 Q1250,120 1300,130 T1400,130 L1400,340 L0,340 Z" fill="#FF6B35" opacity="0.32"/></g>
-<text class="s" x="500" y="62" text-anchor="middle" fill="url(#t)" font-size="32" font-weight="700">Construisons quelque chose avec des données</text>
-<text class="m" x="500" y="94" text-anchor="middle" fill="#cdbfb4" font-size="15">c.elbahloul2898@uca.ac.ma</text></svg>
