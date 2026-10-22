@@ -217,7 +217,7 @@ Importe un fichier **CSV ou Excel** et obtiens une analyse exploratoire (profil 
 </details>
 
 <details>
-<summary><b>Smart Data Pipeline</b> · projet de fin d'études <i>(en binôme)</i></summary>
+<summary><b>Smart Data Pipeline</b> · projet de fin d'études <i>(en Trinome)</i></summary>
 <br>
 
 Pipeline de données auto-adaptatif, réalisé pour le projet de fin d'études du DUT.
