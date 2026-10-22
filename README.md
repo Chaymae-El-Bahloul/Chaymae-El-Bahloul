@@ -2,12 +2,12 @@
 
 <img src="assets/header.svg" alt="Chaymae El Bahloul, étudiante en Sciences des Données" width="100%">
 
-<br>
+<img src="assets/roles.svg" alt="Étudiante en Sciences des Données, Data Engineering et IA : des applications complètes, de la base à l'interface" width="100%">
 
-<a href="#terminal-interactif"><img alt="Terminal" src="https://img.shields.io/badge/%3E_Terminal-0B1020?style=for-the-badge"></a>
+<a href="#boot"><img alt="Boot" src="https://img.shields.io/badge/%3E_Boot-0B1020?style=for-the-badge"></a>
 <a href="#projet-phare"><img alt="Projets" src="https://img.shields.io/badge/Projets-FF6B35?style=for-the-badge"></a>
 <a href="#mes-outils"><img alt="Outils" src="https://img.shields.io/badge/Outils-14B8A6?style=for-the-badge"></a>
-<a href="#mon-parcours"><img alt="Parcours" src="https://img.shields.io/badge/Parcours-8B5CF6?style=for-the-badge"></a>
+<a href="#git-log"><img alt="Parcours" src="https://img.shields.io/badge/Parcours-8B5CF6?style=for-the-badge"></a>
 <a href="#contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-0B1020?style=for-the-badge"></a>
 
 <br><br>
@@ -20,35 +20,51 @@
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
+## Boot
+
+```text
+$ ./chaymae --boot
+
+[  OK  ] Profil chargé .............. Chaymae El Bahloul
+[  OK  ] Formation .................. Bachelor Sciences des Données (en cours)
+[  OK  ] Base solide ................ DUT Ingénierie des Données
+[  OK  ] Stack ...................... Python · SQL · Flask · Streamlit · C
+[  OK  ] Projets compilés ........... 7
+[  OK  ] Stages validés ............. 2
+[  OK  ] Langues .................... arabe · français · anglais
+[ INFO ] Curiosité .................. illimitée
+[ WAIT ] En attente de ton message .. c.elbahloul2898@uca.ac.ma
+```
+
 <p align="center"><img src="assets/stats.svg" alt="Chiffres clés : 7 projets, 2 stages, 3 langues, 2 certifications" width="100%"></p>
 
-## Choisis ton chemin
+## Choisis ta mission
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-**Tu recrutes ?**
+**Mission : recruter**
 
 Mon projet phare, mon parcours et mes deux stages.
 
 [Voir le projet phare](#projet-phare)<br>
-[Voir mon parcours](#mon-parcours)
+[Voir mon git log](#git-log)
 
 </td>
 <td width="33%" valign="top">
 
-**Tu es développeur·se ?**
+**Mission : lire du code**
 
-Mes projets, mon code et ma boîte à outils.
+Mes projets, mes technologies, mes dépôts.
 
-[Voir les autres projets](#autres-projets)<br>
+[Voir les projets](#tous-mes-projets)<br>
 [Voir mes outils](#mes-outils)
 
 </td>
 <td width="33%" valign="top">
 
-**Tu es curieux·se ?**
+**Mission : explorer**
 
 Interroge mon terminal, ou essaie mon portfolio interactif.
 
@@ -67,118 +83,8 @@ Interroge mon terminal, ou essaie mon portfolio interactif.
 | --- | --- |
 | **Concevoir** une base de données et une logique métier solides | RC Gestion, Gestion de congés, stadium_db |
 | **Construire** une application complète, de l'interface au déploiement | RC Gestion, GraphGen (tests, CI, Docker) |
-| **Analyser et visualiser** des données pour en tirer des décisions | Dashboard supermarché, GraphGen |
+| **Analyser et visualiser** des données pour décider | Dashboard supermarché, GraphGen |
 | **Ajouter de l'IA** là où elle apporte une vraie valeur | RC Gestion (3 modèles ML), AI ChatBot |
-
-<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
-
-## Terminal interactif
-
-*Clique sur une commande pour voir la réponse.*
-
-<details>
-<summary><code>$ about</code></summary>
-
-```text
-Chaymae El Bahloul, étudiante en Bachelor Sciences des Données (EST Kelâa des Sraghna)
-après un DUT en Ingénierie des Données. Je transforme des idées en applications
-complètes : base de données, interface et IA.
-```
-
-</details>
-
-<details>
-<summary><code>$ stack</code></summary>
-
-```text
-Python, R, SQL, JavaScript, PHP, C
-Flask, Streamlit, SQLAlchemy
-MySQL, SQLite
-Hadoop, Kafka, Apache Spark, Power BI
-Docker, Git
-```
-
-</details>
-
-<details>
-<summary><code>$ projets</code></summary>
-
-```text
-RC Gestion             Streamlit, paie, rapports PDF, IA   (projet phare)
-GraphGen               Flask, Plotly, Docker               (en binôme)
-Smart Data Pipeline    pipeline de données                 (en trinôme, PFE)
-Dashboard supermarché  Streamlit, Plotly, Pandas
-Gestion de congés      Flask, bilingue FR/AR               (stage 2025)
-AI ChatBot             API Gemini
-stadium_db             C, GTK, MySQL                       (en équipe de 5)
-```
-
-</details>
-
-<details>
-<summary><code>$ parcours</code></summary>
-
-```text
-2026-2027        Bachelor Sciences des Données (en cours)
-avril-juin 2026  Stage : RC Gestion
-2024-2026        DUT Ingénierie des Données
-juin-juil. 2025  Stage : gestion de congés, Commune de Kelâa des Sraghna
-2023-2024        Baccalauréat Sciences Physiques
-```
-
-</details>
-
-<details>
-<summary><code>$ langues</code></summary>
-
-```text
-arabe (langue maternelle) · français (professionnel) · anglais (professionnel)
-```
-
-</details>
-
-<details>
-<summary><code>$ contact</code></summary>
-
-```text
-c.elbahloul2898@uca.ac.ma
-linkedin.com/in/chaymae-el-bahloul
-github.com/Chaymae-El-Bahloul
-```
-
-</details>
-
-<details>
-<summary><code>$ sudo recruter chaymae</code></summary>
-
-```text
-[sudo] mot de passe : ********
-Permission accordée.
-Étape suivante : écrire à c.elbahloul2898@uca.ac.ma
-```
-
-</details>
-
-<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
-
-## Qui suis-je ?
-
-<img align="right" src="assets/photo.png" alt="Chaymae El Bahloul" width="170">
-
-J'aime construire des applications complètes autour des données : interface, logique métier, base de données et intelligence artificielle. Chaque projet est l'occasion d'apprendre une nouvelle brique, de la paie au chatbot en passant par la visualisation.
-
-```python
-chaymae = {
-    "etudes":  "Bachelor Sciences des Données (EST Kelâa des Sraghna)",
-    "base":    "DUT Ingénierie des Données, Université Cadi Ayyad",
-    "stack":   ["Python", "SQL", "Flask", "Streamlit"],
-    "passion": "IA & Data",
-    "lieu":    "El Kelâa des Sraghna, Maroc",
-    "langues": ["arabe", "français", "anglais"],
-}
-```
-
-<br clear="all">
 
 <p align="center"><img src="assets/method.svg" alt="Ma méthode : une idée, une base de données, la logique métier, l'interface, une touche d'IA, puis une application prête" width="100%"></p>
 
@@ -196,17 +102,16 @@ chaymae = {
 > **[Voir le code](https://github.com/Chaymae-El-Bahloul/RC-GESTION)**
 
 <details>
-<summary><b>Découvrir comment RC Gestion est construit</b></summary>
+<summary><b>Sous le capot de RC Gestion</b></summary>
 <br>
 
-| Fichier | Rôle |
-| --- | --- |
-| `app.py` | interface et navigation |
-| `db.py` | logique métier et données |
-| `pdf_reports.py` | bulletins et rapports |
-| `ai.py` | modèles d'IA |
-
-**Les trois modèles d'IA :**
+```text
+RC_Gestion_/
+├── app.py            interface et navigation
+├── db.py             logique métier et données
+├── pdf_reports.py    bulletins et rapports
+└── ai.py             modèles d'IA
+```
 
 | Modèle | Mission |
 | --- | --- |
@@ -216,27 +121,24 @@ chaymae = {
 
 </details>
 
-## Autres projets
+## Tous mes projets
 
-*Clique sur un projet pour le déplier.*
+<table>
+<tr>
+<td width="33%" valign="top">
 
-<details>
-<summary><b>GraphGen</b> · analyse de données en quelques clics <i>(en binôme)</i></summary>
-<br>
+**GraphGen** *(en binôme)*
 
-Importe un fichier **CSV ou Excel** et obtiens une analyse exploratoire (profil des colonnes, valeurs manquantes, corrélations) et des graphiques interactifs, sans écrire une ligne de code.
+Importe un CSV ou Excel et obtiens l'analyse exploratoire et des graphiques interactifs, sans écrire une ligne de code. 12 tests, CI GitHub Actions, Docker.
 
-**Qualité :** 12 tests automatiques, intégration continue GitHub Actions, conteneur Docker.
-
-`Flask` `pandas` `Plotly` `Docker` `pytest`
+`Flask` `pandas` `Plotly` `Docker`
 
 [Voir le code](https://github.com/Chaymae-El-Bahloul/GraphGen)
 
-</details>
+</td>
+<td width="33%" valign="top">
 
-<details>
-<summary><b>Smart Data Pipeline</b> · projet de fin d'études <i>(en trinôme)</i></summary>
-<br>
+**Smart Data Pipeline** *(en trinôme, PFE)*
 
 Pipeline de données auto-adaptatif, réalisé pour le projet de fin d'études du DUT.
 
@@ -244,51 +146,53 @@ Pipeline de données auto-adaptatif, réalisé pour le projet de fin d'études d
 
 [Voir le code](https://github.com/Samah-boudallaa/smart-data-pipeline-pfe)
 
-</details>
+</td>
+<td width="33%" valign="top">
 
-<details>
-<summary><b>Dashboard supermarché</b> · les ventes d'un supermarché, en un coup d'oeil</summary>
-<br>
+**Dashboard supermarché**
 
-Tableau de bord interactif qui répond à cinq questions métier : où gagne-t-on de l'argent, quand vend-on, qui achète, les clients sont-ils satisfaits, et qu'est-ce qui influence quoi. Six filtres (ville, gamme, paiement, genre, note, mois), 4 indicateurs clés et 9 types de visualisations (barres, courbe temporelle, boxplot, heatmap, sunburst, gauge, etc.), tout mis à jour en temps réel.
+Tableau de bord interactif : 6 filtres, 4 indicateurs clés et 9 types de visualisations (boxplot, heatmap, sunburst, gauge...), mis à jour en temps réel.
 
-`Python` `Streamlit` `Plotly` `Pandas`
+`Streamlit` `Plotly` `Pandas`
 
 [Voir le code](https://github.com/Chaymae-El-Bahloul/dashboard-supermarche)
 
-</details>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 
-<details>
-<summary><b>Gestion de congés</b> · stage 2025, Commune de Kelâa des Sraghna</summary>
-<br>
+**Gestion de congés** *(stage 2025)*
 
-Suivi des employés, demandes et validation hiérarchique des congés, statistiques automatiques. Interface **bilingue français / arabe**.
+Suivi des employés, demandes et validation hiérarchique pour la Commune de Kelâa des Sraghna. Interface bilingue français / arabe.
 
 `Flask` `SQLAlchemy` `SQLite`
 
-</details>
+</td>
+<td width="33%" valign="top">
 
-<details>
-<summary><b>AI ChatBot</b> · un assistant multilingue</summary>
-<br>
+**AI ChatBot**
 
 Chatbot multilingue basé sur l'API Gemini, avec gestion des requêtes des utilisateurs.
 
 `Python` `Gemini API`
 
-</details>
+</td>
+<td width="33%" valign="top">
 
-<details>
-<summary><b>stadium_db</b> · gérer des étudiants (CRUD)</summary>
-<br>
+**stadium_db** *(en équipe de 5)*
 
-Mini-projet réalisé en équipe de cinq : application de bureau de gestion d'étudiants (ajout, modification, suppression, recherche, affichage), connectée à une base MySQL.
+Application de bureau de gestion d'étudiants (ajout, modification, suppression, recherche, affichage).
 
 `C` `GTK+ 3` `MySQL`
 
 [Voir le code](https://github.com/Chaymae-El-Bahloul/stadium_db)
 
-</details>
+</td>
+</tr>
+</table>
+
+<p align="center"><a href="https://github.com/Chaymae-El-Bahloul?tab=repositories">Voir tous mes dépôts</a></p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
@@ -296,7 +200,9 @@ Mini-projet réalisé en équipe de cinq : application de bureau de gestion d'é
 
 <p align="center"><img src="assets/orbit.svg" alt="Mes outils en orbite autour de Data et IA : Python, SQL, R, Flask, Streamlit, Docker, Git, MySQL, SQLite, Spark, Kafka, Hadoop, Power BI" width="100%"></p>
 
-*Déplie un domaine pour voir le détail.*
+<p align="center"><img src="assets/skills.svg" alt="Technologies classées par nombre de projets : Python 6, bases de données 3, Streamlit 2, Flask 2, Plotly 2, IA 2, Docker 1, C 1" width="100%"></p>
+
+*Déplie un domaine pour voir tout l'arsenal.*
 
 <details><summary><b>Langages</b></summary>
 
@@ -336,23 +242,98 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
-## Mon parcours
+## Terminal interactif
 
-<p align="center"><img src="assets/timeline.svg" alt="Frise : Baccalauréat 2023-2024, DUT 2024-2026, stage 2025, stage 2026, Bachelor 2026-2027" width="100%"></p>
+*Clique sur une commande pour voir la réponse.*
 
 <details>
-<summary><b>Voir le détail du parcours</b></summary>
-<br>
+<summary><code>$ about</code></summary>
 
-| Quand | Quoi |
-| --- | --- |
-| **2026 – 2027** | Bachelor Sciences des Données, EST Kelâa des Sraghna *(en cours)* |
-| **Avril – juin 2026** | **Stage** : développement de RC Gestion (architecture en couches, calcul de la paie, bulletins automatiques, contrôle d'accès par rôle) |
-| **2024 – 2026** | DUT Ingénierie des Données, EST Kelâa des Sraghna, Université Cadi Ayyad |
-| **Juin – juillet 2025** | **Stage** : application web de gestion des congés pour la Commune de Kelâa des Sraghna |
-| **2023 – 2024** | Baccalauréat Sciences Physiques, Lycée Al Maghrib Al Arabi |
+```text
+Chaymae El Bahloul, étudiante en Bachelor Sciences des Données (EST Kelâa des Sraghna)
+après un DUT en Ingénierie des Données. Je transforme des idées en applications
+complètes : base de données, interface et IA.
+```
 
 </details>
+
+<details>
+<summary><code>$ ls projets/</code></summary>
+
+```text
+RC_Gestion/    GraphGen/    smart-data-pipeline/    dashboard-supermarche/
+gestion-conges/    ai-chatbot/    stadium_db/
+```
+
+</details>
+
+<details>
+<summary><code>$ langues</code></summary>
+
+```text
+arabe (langue maternelle) · français (professionnel) · anglais (professionnel)
+```
+
+</details>
+
+<details>
+<summary><code>$ fortune</code></summary>
+
+```text
+Un bug, c'est juste une fonctionnalité
+qui n'a pas encore trouvé son utilisateur.
+```
+
+</details>
+
+<details>
+<summary><code>$ sudo recruter chaymae</code></summary>
+
+```text
+[sudo] mot de passe : ********
+Permission accordée.
+Étape suivante : écrire à c.elbahloul2898@uca.ac.ma
+```
+
+</details>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Qui suis-je ?
+
+<img align="right" src="assets/photo.png" alt="Chaymae El Bahloul" width="170">
+
+J'aime construire des applications complètes autour des données : interface, logique métier, base de données et intelligence artificielle. Chaque projet est l'occasion d'apprendre une nouvelle brique, de la paie au chatbot en passant par la visualisation.
+
+```python
+chaymae = {
+    "etudes":  "Bachelor Sciences des Données (EST Kelâa des Sraghna)",
+    "base":    "DUT Ingénierie des Données, Université Cadi Ayyad",
+    "stack":   ["Python", "SQL", "Flask", "Streamlit"],
+    "passion": "IA & Data",
+    "lieu":    "El Kelâa des Sraghna, Maroc",
+    "langues": ["arabe", "français", "anglais"],
+}
+```
+
+<br clear="all">
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Git log
+
+*Mon parcours, raconté comme un historique de commits.*
+
+```text
+$ git log --oneline
+
+a7f3c21 (HEAD -> main) 2026-2027      Bachelor Sciences des Données, EST Kelâa des Sraghna (en cours)
+5be90d4                avr-juin 2026  Stage : RC Gestion (architecture en couches, paie, bulletins, rôles)
+3c1d8e7                juin-juil 2025 Stage : gestion de congés, Commune de Kelâa des Sraghna
+9a02f6b                2024-2026      DUT Ingénierie des Données, EST Kelâa des Sraghna, UCA
+1e4d7a0                2023-2024      Baccalauréat Sciences Physiques, Lycée Al Maghrib Al Arabi
+0000000 (initial)      depuis toujours  la curiosité
+```
 
 <details>
 <summary><b>Langues et certifications</b></summary>
