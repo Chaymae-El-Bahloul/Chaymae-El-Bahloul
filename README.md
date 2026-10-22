@@ -17,6 +17,7 @@
 <img alt="Localisation : El Kelâa des Sraghna, Maroc" src="https://img.shields.io/badge/Lieu-El%20Kel%C3%A2a%20des%20Sraghna%2C%20Maroc-FF6B35?style=flat-square">
 <img alt="Langues : arabe, français, anglais" src="https://img.shields.io/badge/Langues-AR%20%C2%B7%20FR%20%C2%B7%20EN-14B8A6?style=flat-square">
 <img alt="Formation : Bachelor Sciences des Données" src="https://img.shields.io/badge/Bachelor-Sciences%20des%20Donn%C3%A9es-8B5CF6?style=flat-square">
+<img alt="Visites" src="https://hits.sh/github.com/Chaymae-El-Bahloul.svg?style=flat-square&label=Visites&color=0B1020&labelColor=FF6B35">
 
 </div>
 
