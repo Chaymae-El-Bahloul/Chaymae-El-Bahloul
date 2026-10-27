@@ -8,6 +8,7 @@
 <a href="#flagship-project"><img alt="Projects" src="https://img.shields.io/badge/Projects-FF6B35?style=for-the-badge"></a>
 <a href="#my-tools"><img alt="Tools" src="https://img.shields.io/badge/Tools-14B8A6?style=for-the-badge"></a>
 <a href="#git-log"><img alt="Journey" src="https://img.shields.io/badge/Journey-8B5CF6?style=for-the-badge"></a>
+<a href="#certifications"><img alt="Certifications" src="https://img.shields.io/badge/Certifications-FF6B35?style=for-the-badge"></a>
 <a href="#contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-0B1020?style=for-the-badge"></a>
 
 <br><br>
@@ -34,12 +35,13 @@ $ ./chaymae --boot
 [  OK  ] Stack ...................... Python · SQL · Flask · Streamlit · C
 [  OK  ] Projects compiled .......... 7
 [  OK  ] Internships completed ...... 2
+[  OK  ] Certifications ............. 3
 [  OK  ] Languages .................. Arabic · French · English
 [ INFO ] Curiosity .................. unlimited
 [ WAIT ] Waiting for your message ... c.elbahloul2898@uca.ac.ma
 ```
 
-<p align="center"><img src="assets/stats.svg" alt="Key figures: 7 projects, 2 internships, 3 languages, 2 certifications" width="100%"></p>
+<p align="center"><img src="assets/stats.svg" alt="Key figures: 7 projects, 2 internships, 3 languages, 3 certifications" width="100%"></p>
 
 ## Choose your mission
 
@@ -52,7 +54,8 @@ $ ./chaymae --boot
 My flagship project, my journey and my two internships.
 
 [See the flagship project](#flagship-project)<br>
-[See my git log](#git-log)
+[See my git log](#git-log)<br>
+[See my certifications](#certifications)
 
 </td>
 <td width="33%" valign="top">
@@ -323,12 +326,12 @@ I love building complete applications around data: interface, business logic, da
 
 ```python
 chaymae = {
-    "studies":  "Bachelor in Data Science (EST Kelâa des Sraghna)",
+    "studies":    "Bachelor in Data Science (EST Kelâa des Sraghna)",
     "foundation": "DUT in Data Engineering, Cadi Ayyad University",
-    "stack":    ["Python", "SQL", "Flask", "Streamlit"],
-    "passion":  "AI & Data",
-    "location": "El Kelâa des Sraghna, Morocco",
-    "languages": ["Arabic", "French", "English"],
+    "stack":      ["Python", "SQL", "Flask", "Streamlit"],
+    "passion":    "AI & Data",
+    "location":   "El Kelâa des Sraghna, Morocco",
+    "languages":  ["Arabic", "French", "English"],
 }
 ```
 
@@ -354,14 +357,56 @@ a7f3c21 (HEAD -> main) 2026-2027      Bachelor in Data Science, EST Kelâa des S
 ```
 
 <details>
-<summary><b>Languages and certifications</b></summary>
+<summary><b>Languages</b></summary>
 <br>
 
-**Languages:** Arabic (native) · French (professional) · English (professional)
-
-**Certifications:** Career Essentials in Generative AI · Learning Microsoft 365 Copilot
+Arabic (native) · French (professional) · English (professional)
 
 </details>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Certifications
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**Career Essentials in Generative AI**
+
+Microsoft and LinkedIn Learning
+
+Generative AI fundamentals, writing effective prompts, and using AI tools responsibly at work.
+
+`Generative AI` `Prompting` `Responsible AI`
+
+</td>
+<td width="33%" valign="top">
+
+**Learning Microsoft 365 Copilot**
+
+LinkedIn Learning
+
+Using Copilot in Word, Excel, PowerPoint, Outlook and Teams to write, analyze and summarize faster.
+
+`Microsoft 365` `Copilot` `Productivity`
+
+</td>
+<td width="33%" valign="top">
+
+**Master Series 4.0: Smart Factories, Hypermanufacturing & Beyond**
+
+UNIDO and the Digital Development Agency (ADD), Morocco
+
+Certificate of participation in the webinar series "Industry 4.0 and Digital Transformation", June to September 2025.
+
+`Industry 4.0` `Smart Factories` `Digital Transformation`
+
+[View certificate](certificates/attestation-unido-add.pdf)
+
+</td>
+</tr>
+</table>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
