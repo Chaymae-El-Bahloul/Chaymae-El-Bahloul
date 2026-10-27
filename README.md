@@ -338,7 +338,7 @@ chaymae = {
 
 ## Git log
 
-<p align="center"><img src="assets/gantt.svg" alt="Timeline: baccalaureate 2023-2024, DUT 2024-2026, leave management internship 2025, RC Gestion internship 2026, Bachelor 2026-2027 in progress" width="100%"></p>
+<p align="center"><img src="assets/timeline.svg" alt="Timeline of my journey from 2023 to 2027" width="100%"></p>
 
 *My journey, told like a commit history.*
 
