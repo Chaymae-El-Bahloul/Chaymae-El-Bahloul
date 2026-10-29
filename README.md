@@ -184,6 +184,7 @@ Employee tracking, requests and hierarchical approval for the Municipality of Ke
 Multilingual chatbot based on the Gemini API, with user request handling.
 
 `Python` `Gemini API`
+[View the code ](https://github.com/Chaymae-El-Bahloul/AI-chatbot)
 
 </td>
 <td width="33%" valign="top">
