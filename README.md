@@ -144,13 +144,13 @@ Import a CSV or Excel file and get exploratory analysis and interactive charts, 
 </td>
 <td width="33%" valign="top">
 
-**Smart Data Pipeline** *(team of three, final-year project)*
+**Smart Data Pipeline** *(team of three)*
 
 Self-adaptive data pipeline, built for the DUT final-year project.
 
 `Python` `Data pipeline`
 
-[View the code](https://github.com/Samah-boudallaa/smart-data-pipeline-pfe)
+[View the code](https://github.com/Samah-boudallaa/smart-data-pipeline)
 
 </td>
 <td width="33%" valign="top">
