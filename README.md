@@ -287,10 +287,6 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 <p align="center"><img src="assets/pipeline.svg" alt="Live data pipeline that rebuilds this profile every day: extract from the GitHub API, transform with Python, load into this README" width="100%"></p>
 
-This README is not static. Every day at 00:00 UTC, a GitHub Action runs a small data pipeline that **extracts** my public repositories from the GitHub API, **transforms** them (language ranking, commit count over 30 days) and **loads** the result into the image above, a history file ([`data/history.csv`](data/history.csv)) and the log below. The history grows with each run, so the trend line draws itself over time.
-
-Code: [`scripts/build_pipeline.py`](scripts/build_pipeline.py), Python standard library only. Workflow: [`.github/workflows/pipeline.yml`](.github/workflows/pipeline.yml).
-
 <details>
 <summary><b>Show the last run log</b></summary>
 
