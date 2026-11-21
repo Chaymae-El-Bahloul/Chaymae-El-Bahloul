@@ -298,7 +298,10 @@ Code: [`scripts/build_pipeline.py`](scripts/build_pipeline.py), Python standard 
 ```text
 $ ./pipeline --status
 
-[ WAIT ] first run pending ... Actions tab > Update pipeline > Run workflow
+[  OK  ] extract ...... 6 repositories, 13 API calls
+[  OK  ] transform .... 6 languages, 27 commits in 30 days
+[  OK  ] load ......... assets/pipeline.svg, data/history.csv
+[ INFO ] last run ..... 2026-11-21 12:40 UTC (run #1)
 ```
 <!--PIPELINE:END-->
 
