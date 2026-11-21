@@ -1,50 +1,143 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Chaymae El Bahloul, Data Science and Data Engineering student, AI enthusiast" width="100%">
+<img src="assets/header.svg" alt="Chaymae El Bahloul, Data Science student" width="100%">
 
-<a href="#in-2-the-flagship"><img alt="Flagship" src="https://img.shields.io/badge/Flagship-E8553D?style=for-the-badge"></a>
-<a href="#in-3-the-method"><img alt="Method" src="https://img.shields.io/badge/Method-0E9F8E?style=for-the-badge"></a>
-<a href="#in-4-all-projects"><img alt="Projects" src="https://img.shields.io/badge/Projects-6D4AFF?style=for-the-badge"></a>
-<a href="#in-5-tools"><img alt="Tools" src="https://img.shields.io/badge/Tools-F4A300?style=for-the-badge"></a>
-<a href="#in-6-journey"><img alt="Journey" src="https://img.shields.io/badge/Journey-1E1B2E?style=for-the-badge"></a>
-<a href="#in-7-contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-E8553D?style=for-the-badge"></a>
+<img src="assets/roles.svg" alt="Data Science and Data Engineering student, and AI enthusiast: complete applications, from the database to the interface" width="100%">
+
+<a href="#boot"><img alt="Boot" src="https://img.shields.io/badge/%3E_Boot-0B1020?style=for-the-badge"></a>
+<a href="#flagship-project"><img alt="Projects" src="https://img.shields.io/badge/Projects-FF6B35?style=for-the-badge"></a>
+<a href="#my-tools"><img alt="Tools" src="https://img.shields.io/badge/Tools-14B8A6?style=for-the-badge"></a>
+<a href="#git-log"><img alt="Journey" src="https://img.shields.io/badge/Journey-8B5CF6?style=for-the-badge"></a>
+<a href="#certifications"><img alt="Certifications" src="https://img.shields.io/badge/Certifications-FF6B35?style=for-the-badge"></a>
+<a href="#contact"><img alt="Contact" src="https://img.shields.io/badge/Contact-0B1020?style=for-the-badge"></a>
 
 <br><br>
 
-<img alt="Status: open to internship" src="https://img.shields.io/badge/Status-Open%20to%20internship-16A34A?style=flat-square">
-<img alt="Location: El Kelâa des Sraghna, Morocco" src="https://img.shields.io/badge/Location-El%20Kel%C3%A2a%20des%20Sraghna%2C%20Morocco-E8553D?style=flat-square">
-<img alt="Languages: Arabic, French, English" src="https://img.shields.io/badge/Languages-AR%20%C2%B7%20FR%20%C2%B7%20EN-0E9F8E?style=flat-square">
-<img alt="Visits" src="https://hits.sh/github.com/Chaymae-El-Bahloul.svg?style=flat-square&label=Visits&color=1E1B2E&labelColor=F4A300">
+**I turn ideas into complete applications: from the database to the interface, with a touch of artificial intelligence.**
+
+<details>
+<summary><b>Version française</b></summary>
+<br>
+
+Étudiante en Bachelor Sciences des Données (après un DUT en Ingénierie des Données), je transforme des idées en applications complètes : base de données, logique métier, interface, et une touche d'intelligence artificielle là où elle apporte une vraie valeur.
+
+Ce profil est lui-même alimenté par un pipeline de données automatique : voir [Live pipeline](#live-pipeline).
+
+</details>
+
+<img alt="Location: El Kelâa des Sraghna, Morocco" src="https://img.shields.io/badge/Location-El%20Kel%C3%A2a%20des%20Sraghna%2C%20Morocco-FF6B35?style=flat-square">
+<img alt="Languages: Arabic, French, English" src="https://img.shields.io/badge/Languages-AR%20%C2%B7%20FR%20%C2%B7%20EN-14B8A6?style=flat-square">
+<img alt="Studies: Bachelor in Data Science" src="https://img.shields.io/badge/Bachelor-Data%20Science-8B5CF6?style=flat-square">
+<img alt="Visits" src="https://hits.sh/github.com/Chaymae-El-Bahloul.svg?style=flat-square&label=Visits&color=0B1020&labelColor=FF6B35">
 
 </div>
 
-&nbsp;
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
-## In [2]: the flagship
+## Boot
+
+```text
+$ ./chaymae --boot
+
+[  OK  ] Profile loaded ............. Chaymae El Bahloul
+[  OK  ] Education .................. Bachelor in Data Science (in progress)
+[  OK  ] Solid foundation ........... DUT in Data Engineering
+[  OK  ] Stack ...................... Python · SQL · Flask · Streamlit · C
+[  OK  ] Projects compiled .......... 7
+[  OK  ] Internships completed ...... 2
+[  OK  ] Certifications ............. 3
+[  OK  ] Languages .................. Arabic · French · English
+[ INFO ] Curiosity .................. unlimited
+[ WAIT ] Waiting for your message ... c.elbahloul2898@uca.ac.ma
+```
+
+<p align="center"><img src="assets/stats.svg" alt="Key figures: 7 projects, 2 internships, 3 languages, 3 certifications" width="100%"></p>
+
+## Choose your mission
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**Mission: recruit**
+
+My flagship project, my journey and my two internships.
+
+[See the flagship project](#flagship-project)<br>
+[See my git log](#git-log)<br>
+[See my certifications](#certifications)
+
+</td>
+<td width="33%" valign="top">
+
+**Mission: read code**
+
+My projects, my technologies, my repositories.
+
+[See the projects](#all-my-projects)<br>
+[See my tools](#my-tools)
+
+</td>
+<td width="33%" valign="top">
+
+**Mission: explore**
+
+Query my terminal, or try my interactive portfolio.
+
+[Open the terminal](#interactive-terminal)<br>
+[Watch the live pipeline](#live-pipeline)<br>
+[Go to the portfolio](https://chaymae-el-bahloul.github.io)
+
+</td>
+</tr>
+</table>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## What I can do
+
+| I can... | Proof |
+| --- | --- |
+| **Design** a solid database and business logic | RC Gestion, Leave Management, stadium_db |
+| **Build** a complete application, from the interface to deployment | RC Gestion, GraphGen (tests, CI, Docker) |
+| **Analyze and visualize** data to support decisions | Supermarket Dashboard, GraphGen |
+| **Add AI** where it brings real value | RC Gestion (3 ML models), AI ChatBot |
+
+<p align="center"><img src="assets/method.svg" alt="My method: an idea, a database, business logic, the interface, a touch of AI, then a ready application" width="100%"></p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Flagship project
 
 > ### RC Gestion
 > **What if the application could prevent tax delays instead of just recording them?**
+> A web application that digitizes the management of an accounting firm: client files (individuals and companies), tax filings, simplified bookkeeping, payroll and company-creation tracking.
+> It automatically generates payslips, client sheets and PDF reports, sends alerts and includes an AI module. Three roles: **Admin**, **Accountant**, **Client**.
 >
-> A web application that digitizes the management of an accounting firm: client files (individuals and companies), tax filings, simplified bookkeeping, payroll and company-creation tracking. It generates payslips, client sheets and PDF reports, sends alerts, and includes an AI module. Three roles: **Admin**, **Accountant**, **Client**.
+> ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white) ![PDF](https://img.shields.io/badge/PDF%20Reports-0B1020)
 >
-> ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
->
-> **[Read the code](https://github.com/Chaymae-El-Bahloul/RC-GESTION)**
-
-<p align="center"><img src="assets/rc-gestion-live.svg" alt="Simulated live preview of RC Gestion: a Random Forest risk gauge, a revenue forecast and an Isolation Forest anomaly detector that triggers an alert to the accountant" width="100%"></p>
-<p align="center"><sub>Animated preview drawn in SVG with demo data: the three models of <code>ai.py</code> at work.</sub></p>
+> **[View the code](https://github.com/Chaymae-El-Bahloul/RC-GESTION)**
 
 <details>
-<summary><b>Under the hood</b></summary>
+<summary><b>Under the hood of RC Gestion</b></summary>
 <br>
+
+```text
+RC_Gestion_/
+├── app.py            interface and navigation
+├── db.py             business logic and data
+├── pdf_reports.py    payslips and reports
+└── ai.py             AI models
+```
 
 ```mermaid
 flowchart LR
-    U([Admin / Accountant / Client]) --> A[app.py<br>interface]
-    A --> B[db.py<br>logic and data]
-    B --> D[(SQLite)]
-    B --> P[pdf_reports.py<br>payslips, reports]
-    B --> M[ai.py<br>3 models]
+    U["Admin / Accountant / Client"] --> A["app.py<br/>interface"]
+    A --> D["db.py<br/>business logic"]
+    D --> S[("SQLite")]
+    A --> P["pdf_reports.py<br/>payslips, reports"]
+    D --> I["ai.py<br/>3 ML models"]
+    I --> A
 ```
 
 | Model | Mission |
@@ -55,106 +148,336 @@ flowchart LR
 
 </details>
 
-&nbsp;
+## All my projects
 
-## In [3]: the method
+<table>
+<tr>
+<td width="33%" valign="top">
 
-<p align="center"><img src="assets/pipeline.svg" alt="My method as notebook cells: an idea, a database, business logic, the interface, a touch of AI, a ready application" width="100%"></p>
+**GraphGen** *(pair project)*
 
-| I can... | Proof |
-| --- | --- |
-| **Design** a solid database and business logic | RC Gestion, Leave Management, stadium_db |
-| **Build** a complete application, from the interface to deployment | RC Gestion, GraphGen (tests, CI, Docker) |
-| **Analyze and visualize** data to support decisions | Supermarket Dashboard, GraphGen |
-| **Add AI** where it brings real value | RC Gestion (3 ML models), AI ChatBot |
+Import a CSV or Excel file and get exploratory analysis and interactive charts, without writing a single line of code. 12 tests, GitHub Actions CI, Docker.
 
-&nbsp;
+`Flask` `pandas` `Plotly` `Docker`
 
-## In [4]: all projects
+[View the code](https://github.com/Chaymae-El-Bahloul/GraphGen)
 
-```python
-projects.sort_values("year", ascending=False)
-```
+</td>
+<td width="33%" valign="top">
 
-| Project | What it does | Stack | Code |
-| --- | --- | --- | --- |
-| **GraphGen** *(pair project)* | Import a CSV or Excel file and get exploratory analysis and interactive charts, with no code. 12 tests, GitHub Actions CI, Docker. | `Flask` `pandas` `Plotly` `Docker` | [repo](https://github.com/Chaymae-El-Bahloul/GraphGen) |
-| **Smart Data Pipeline** *(team of three)* | Self-adaptive data pipeline, built for the DUT final-year project. | `Python` | [repo](https://github.com/Samah-boudallaa/smart-data-pipeline) |
-| **Supermarket Dashboard** | Interactive dashboard: 6 filters, 4 key indicators, 9 chart types (boxplot, heatmap, sunburst, gauge...), updated in real time. | `Streamlit` `Plotly` `Pandas` | [repo](https://github.com/Chaymae-El-Bahloul/dashboard-supermarche) |
-| **Leave Management** *(2025 internship)* | Employee tracking, requests and hierarchical approval for the Municipality of Kelâa des Sraghna. Bilingual French / Arabic. | `Flask` `SQLAlchemy` `SQLite` | [repo](https://github.com/Chaymae-El-Bahloul/Gestion-Conges) |
-| **AI ChatBot** | Multilingual chatbot based on the Gemini API, with user request handling. | `Python` `Gemini API` | [repo](https://github.com/Chaymae-El-Bahloul/AI-chatbot) |
-| **stadium_db** *(team of 5)* | Desktop application for student management (add, edit, delete, search, display). | `C` `GTK+ 3` `MySQL` | [repo](https://github.com/Chaymae-El-Bahloul/stadium_db) |
+**Smart Data Pipeline** *(team of three)*
 
-<p align="center"><a href="https://github.com/Chaymae-El-Bahloul?tab=repositories">All my repositories</a></p>
+Self-adaptive data pipeline, built for the DUT final-year project.
 
-&nbsp;
+`Python` `Data pipeline`
 
-## In [5]: tools
+[View the code](https://github.com/Samah-boudallaa/smart-data-pipeline)
+
+</td>
+<td width="33%" valign="top">
+
+**Supermarket Dashboard**
+
+Interactive dashboard: 6 filters, 4 key indicators and 9 types of visualizations (boxplot, heatmap, sunburst, gauge...), updated in real time.
+
+`Streamlit` `Plotly` `Pandas`
+
+[View the code](https://github.com/Chaymae-El-Bahloul/dashboard-supermarche)
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**Leave Management** *(2025 internship)*
+
+Employee tracking, requests and hierarchical approval for the Municipality of Kelâa des Sraghna. Bilingual French / Arabic interface.
+
+`Flask` `SQLAlchemy` `SQLite`
+
+[View the code](https://github.com/Chaymae-El-Bahloul/Gestion-Conges)
+
+</td>
+<td width="33%" valign="top">
+
+**AI ChatBot**
+
+Multilingual chatbot based on the Gemini API, with user request handling.
+
+`Python` `Gemini API`
+[View the code ](https://github.com/Chaymae-El-Bahloul/AI-chatbot)
+
+</td>
+<td width="33%" valign="top">
+
+**stadium_db** *(team of 5)*
+
+Desktop application for student management (add, edit, delete, search, display).
+
+`C` `GTK+ 3` `MySQL`
+
+[View the code](https://github.com/Chaymae-El-Bahloul/stadium_db)
+
+</td>
+</tr>
+</table>
+
+<p align="center"><a href="https://github.com/Chaymae-El-Bahloul?tab=repositories">See all my repositories</a></p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## My tools
+
+<p align="center"><img src="assets/orbit.svg" alt="My tools orbiting around Data and AI: Python, SQL, R, Flask, Streamlit, Docker, Git, MySQL, SQLite, Spark, Kafka, Hadoop, Power BI" width="100%"></p>
 
 <p align="center"><img src="assets/skills.svg" alt="Technologies ranked by number of projects: Python 6, databases 3, Streamlit 2, Flask 2, Plotly 2, AI 2, Docker 1, C 1" width="100%"></p>
 
-<details><summary><b>Full arsenal</b></summary>
-<br>
+*Expand a domain to see the full arsenal.*
 
-| Domain | Tools |
-| --- | --- |
-| Languages | Python, R, SQL, JavaScript, PHP, C |
-| Web and applications | Flask, Streamlit, SQLAlchemy, HTML / CSS |
-| Databases | MySQL, Oracle SQL Developer, SQLite, Data Warehouse |
-| Big Data and analytics | Hadoop, Kafka, Apache Spark, Power BI, Data Mining, machine learning |
-| Artificial intelligence | Generative AI, Gemini API, Microsoft 365 Copilot, scikit-learn |
-| Work tools | Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code |
+<details><summary><b>Languages</b></summary>
+
+Python, R, SQL, JavaScript, PHP, C
 
 </details>
 
-&nbsp;
+<details><summary><b>Web and applications</b></summary>
 
-## In [6]: journey
+Flask, Streamlit, SQLAlchemy, HTML / CSS
 
-<p align="center"><img src="assets/timeline.svg" alt="Gantt timeline from 2023 to 2027: baccalaureate, DUT in Data Engineering, two internships, Bachelor in Data Science in progress" width="100%"></p>
+</details>
+
+<details><summary><b>Databases</b></summary>
+
+MySQL, Oracle SQL Developer, SQLite, Data Warehouse
+
+</details>
+
+<details><summary><b>Big Data and analytics</b></summary>
+
+Hadoop, Kafka, Apache Spark, Power BI, Data Mining, machine learning
+
+</details>
+
+<details><summary><b>Artificial intelligence</b></summary>
+
+Generative AI, Gemini API, Microsoft 365 Copilot, scikit-learn
+
+</details>
+
+<details><summary><b>Work tools</b></summary>
+
+Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
+
+</details>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## By the numbers
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/donut.svg" alt="Breakdown of my 7 projects by type: 3 web applications, 1 visualization, 1 data engineering, 1 conversational AI, 1 desktop application" width="100%"></td>
+<td width="50%" align="center"><img src="assets/radar.svg" alt="Radar of my toolbox: languages 6, web 4, databases 4, big data 6, AI 4, tools 6" width="100%"></td>
+</tr>
+</table>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Live pipeline
+
+<p align="center"><img src="assets/pipeline.svg" alt="Live data pipeline that rebuilds this profile every day: extract from the GitHub API, transform with Python, load into this README" width="100%"></p>
+
+This README is not static. Every day at 00:00 UTC, a GitHub Action runs a small data pipeline that **extracts** my public repositories from the GitHub API, **transforms** them (language ranking, commit count over 30 days) and **loads** the result into the image above, a history file ([`data/history.csv`](data/history.csv)) and the log below. The history grows with each run, so the trend line draws itself over time.
+
+Code: [`scripts/build_pipeline.py`](scripts/build_pipeline.py), Python standard library only. Workflow: [`.github/workflows/pipeline.yml`](.github/workflows/pipeline.yml).
+
+<details>
+<summary><b>Show the last run log</b></summary>
+
+<!--PIPELINE:START-->
+```text
+$ ./pipeline --status
+
+[ WAIT ] first run pending ... Actions tab > Update pipeline > Run workflow
+```
+<!--PIPELINE:END-->
+
+</details>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Interactive terminal
+
+*Click a command to see the response.*
+
+<details>
+<summary><code>$ about</code></summary>
+
+```text
+Chaymae El Bahloul, Bachelor in Data Science student (EST Kelâa des Sraghna)
+after a DUT in Data Engineering. I turn ideas into complete applications:
+database, interface and AI.
+```
+
+</details>
+
+<details>
+<summary><code>$ ls projects/</code></summary>
+
+```text
+RC_Gestion/    GraphGen/    smart-data-pipeline/    dashboard-supermarche/
+gestion-conges/    ai-chatbot/    stadium_db/
+```
+
+</details>
+
+<details>
+<summary><code>$ languages</code></summary>
+
+```text
+Arabic (native) · French (professional) · English (professional)
+```
+
+</details>
+
+<details>
+<summary><code>$ fortune</code></summary>
+
+```text
+A bug is just a feature
+that hasn't found its user yet.
+```
+
+</details>
+
+<details>
+<summary><code>$ sudo hire chaymae</code></summary>
+
+```text
+[sudo] password: ********
+Permission granted.
+Next step: write to c.elbahloul2898@uca.ac.ma
+```
+
+</details>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Who am I?
 
 <img align="right" src="assets/photo.png" alt="Chaymae El Bahloul" width="170">
 
 I love building complete applications around data: interface, business logic, database and artificial intelligence. Each project is a chance to learn a new building block, from payroll to chatbots to visualization.
 
-**Right now**
-
-| | |
-| --- | --- |
-| Studying | Bachelor in Data Science, EST Kelâa des Sraghna |
-| Building | A live demo and deeper ML features for RC Gestion |
-| Learning | Apache Spark and Kafka |
-| Looking for | An internship in Data / AI / Software |
+```python
+chaymae = {
+    "studies":    "Bachelor in Data Science (EST Kelâa des Sraghna)",
+    "foundation": "DUT in Data Engineering, Cadi Ayyad University",
+    "stack":      ["Python", "SQL", "Flask", "Streamlit"],
+    "passion":    "AI & Data",
+    "location":   "El Kelâa des Sraghna, Morocco",
+    "languages":  ["Arabic", "French", "English"],
+}
+```
 
 <br clear="all">
 
-### Certifications
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
-| Certification | Issuer | What it covers |
-| --- | --- | --- |
-| **Career Essentials in Generative AI** | Microsoft and LinkedIn Learning | Generative AI fundamentals, effective prompts, responsible use of AI tools at work |
-| **Learning Microsoft 365 Copilot** | LinkedIn Learning | Copilot in Word, Excel, PowerPoint, Outlook and Teams |
-| **Master Series 4.0: Smart Factories, Hypermanufacturing & Beyond** | UNIDO and the Digital Development Agency (ADD), Morocco | Webinar series "Industry 4.0 and Digital Transformation", June to September 2025 · [certificate](certificates/attestation-unido-add.pdf) |
+## Git log
 
-&nbsp;
+<p align="center"><img src="assets/timeline.svg" alt="Timeline of my journey from 2023 to 2027" width="100%"></p>
 
-## In [7]: contact
+*My journey, told like a commit history.*
 
-<p align="center"><img src="assets/footer.svg" alt="Let's build something with data" width="100%"></p>
+```text
+$ git log --oneline
 
-<div align="center">
+a7f3c21 (HEAD -> main) 2026-2027      Bachelor in Data Science, EST Kelâa des Sraghna (in progress)
+5be90d4                Apr-Jun 2026   Internship: RC Gestion (layered architecture, payroll, payslips, roles)
+3c1d8e7                Jun-Jul 2025   Internship: leave management, Municipality of Kelâa des Sraghna
+9a02f6b                2024-2026      DUT in Data Engineering, EST Kelâa des Sraghna, UCA
+1e4d7a0                2023-2024      Baccalaureate in Physical Sciences, Lycée Al Maghrib Al Arabi
+0000000 (initial)      since always   curiosity
+```
 
-<a href="mailto:c.elbahloul2898@uca.ac.ma"><img alt="Email" src="https://img.shields.io/badge/Email-E8553D?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://www.linkedin.com/in/chaymae-el-bahloul"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="https://chaymae-el-bahloul.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Interactive%20Portfolio-1E1B2E?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+<details>
+<summary><b>Languages</b></summary>
+<br>
 
-<sub>My portfolio has a real terminal and a quick menu: try Ctrl / ⌘ + K.</sub>
+Arabic (native) · French (professional) · English (professional)
 
-<br><br>
+</details>
 
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Certifications
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**Career Essentials in Generative AI**
+
+Microsoft and LinkedIn Learning
+
+Generative AI fundamentals, writing effective prompts, and using AI tools responsibly at work.
+
+`Generative AI` `Prompting` `Responsible AI`
+
+</td>
+<td width="33%" valign="top">
+
+**Learning Microsoft 365 Copilot**
+
+LinkedIn Learning
+
+Using Copilot in Word, Excel, PowerPoint, Outlook and Teams to write, analyze and summarize faster.
+
+`Microsoft 365` `Copilot` `Productivity`
+
+</td>
+<td width="33%" valign="top">
+
+**Master Series 4.0: Smart Factories, Hypermanufacturing & Beyond**
+
+UNIDO and the Digital Development Agency (ADD), Morocco
+
+Certificate of participation in the webinar series "Industry 4.0 and Digital Transformation", June to September 2025.
+
+`Industry 4.0` `Smart Factories` `Digital Transformation`
+
+[View certificate](certificates/attestation-unido-add.pdf)
+
+</td>
+</tr>
+</table>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## My activity
+
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chaymae-El-Bahloul/Chaymae-El-Bahloul/output/github-contribution-grid-snake-dark.svg">
   <img alt="Snake eating my GitHub contributions" src="https://raw.githubusercontent.com/Chaymae-El-Bahloul/Chaymae-El-Bahloul/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
+</p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Contact
+
+<div align="center">
+
+### A question, an opportunity, a project idea?
+
+<a href="mailto:c.elbahloul2898@uca.ac.ma"><img alt="Email" src="https://img.shields.io/badge/Email-FF6B35?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/chaymae-el-bahloul"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://chaymae-el-bahloul.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Interactive%20Portfolio-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+
+<sub>My portfolio has a real terminal and a quick menu: try Ctrl / ⌘ + K.</sub>
 
 </div>
+
+<p align="center"><img src="assets/footer.svg" alt="Let's build something with data" width="100%"></p>
