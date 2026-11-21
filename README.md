@@ -15,6 +15,7 @@
 
 **I turn ideas into complete applications: from the database to the interface, with a touch of artificial intelligence.**
 
+<img alt="Status: open to internships and PFE" src="https://img.shields.io/badge/Status-Open%20to%20internship%20%2F%20PFE-22C55E?style=flat-square">
 <img alt="Location: El Kelâa des Sraghna, Morocco" src="https://img.shields.io/badge/Location-El%20Kel%C3%A2a%20des%20Sraghna%2C%20Morocco-FF6B35?style=flat-square">
 <img alt="Languages: Arabic, French, English" src="https://img.shields.io/badge/Languages-AR%20%C2%B7%20FR%20%C2%B7%20EN-14B8A6?style=flat-square">
 <img alt="Studies: Bachelor in Data Science" src="https://img.shields.io/badge/Bachelor-Data%20Science-8B5CF6?style=flat-square">
@@ -25,6 +26,11 @@
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Boot
+
+<p align="center"><img src="assets/boot.svg" alt="Animated terminal booting Chaymae El Bahloul's profile: Bachelor in Data Science, DUT in Data Engineering, Python SQL Flask Streamlit C, 7 projects, 2 internships, 3 certifications, 3 languages" width="100%"></p>
+
+<details>
+<summary>Plain-text version</summary>
 
 ```text
 $ ./chaymae --boot
@@ -40,6 +46,8 @@ $ ./chaymae --boot
 [ INFO ] Curiosity .................. unlimited
 [ WAIT ] Waiting for your message ... c.elbahloul2898@uca.ac.ma
 ```
+
+</details>
 
 <p align="center"><img src="assets/stats.svg" alt="Key figures: 7 projects, 2 internships, 3 languages, 3 certifications" width="100%"></p>
 
@@ -83,6 +91,15 @@ Query my terminal, or try my interactive portfolio.
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
+## Right now
+
+| | |
+| --- | --- |
+| **Studying** | Bachelor in Data Science, EST Kelâa des Sraghna |
+| **Building** | A live demo and deeper ML features for RC Gestion |
+| **Learning** | Apache Spark and Kafka |
+| **Looking for** | An internship or final-year project (PFE) in Data / AI / Software |
+
 ## What I can do
 
 | I can... | Proof |
@@ -107,16 +124,20 @@ Query my terminal, or try my interactive portfolio.
 >
 > **[View the code](https://github.com/Chaymae-El-Bahloul/RC-GESTION)**
 
+<p align="center"><img src="assets/rc-gestion-live.svg" alt="Simulated live preview of RC Gestion: a Random Forest risk gauge, a revenue forecast, and an Isolation Forest anomaly detector triggering an alert to the accountant" width="100%"></p>
+<p align="center"><sub>Animated preview drawn in SVG with demo data: the three models of <code>ai.py</code> at work.</sub></p>
+
 <details>
 <summary><b>Under the hood of RC Gestion</b></summary>
 <br>
 
-```text
-RC_Gestion_/
-├── app.py            interface and navigation
-├── db.py             business logic and data
-├── pdf_reports.py    payslips and reports
-└── ai.py             AI models
+```mermaid
+flowchart LR
+    U([Admin / Accountant / Client]) --> A[app.py<br>interface]
+    A --> B[db.py<br>logic and data]
+    B --> D[(SQLite)]
+    B --> P[pdf_reports.py<br>payslips, reports]
+    B --> M[ai.py<br>3 models]
 ```
 
 | Model | Mission |
@@ -356,14 +377,6 @@ a7f3c21 (HEAD -> main) 2026-2027      Bachelor in Data Science, EST Kelâa des S
 1e4d7a0                2023-2024      Baccalaureate in Physical Sciences, Lycée Al Maghrib Al Arabi
 0000000 (initial)      since always   curiosity
 ```
-
-<details>
-<summary><b>Languages</b></summary>
-<br>
-
-Arabic (native) · French (professional) · English (professional)
-
-</details>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
