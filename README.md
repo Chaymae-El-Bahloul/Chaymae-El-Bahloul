@@ -491,7 +491,6 @@ Certificate of participation in the webinar series "Industry 4.0 and Digital Tra
 <a href="https://chaymae-el-bahloul.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Interactive%20Portfolio-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
 <a href="https://github.com/Chaymae-El-Bahloul/Chaymae-El-Bahloul/releases/download/cv-v1.0/CV_Chaymae_EL_BAHLOUL_EN.pdf"><img alt="CV" src="https://img.shields.io/badge/My%20CV-14B8A6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"></a>
 
-<sub>My portfolio has a real terminal and a quick menu: try Ctrl / ⌘ + K.</sub>
 
 </div>
 
