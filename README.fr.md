@@ -491,7 +491,6 @@ Attestation de participation à la série de webinaires « Industrie 4.0 et tran
 <a href="https://chaymae-el-bahloul.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio%20interactif-0B1020?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
 <a href="https://github.com/Chaymae-El-Bahloul/Chaymae-El-Bahloul/releases/download/cv-v1.0/CV_Chaymae_EL_BAHLOUL_FR.pdf"><img alt="CV" src="https://img.shields.io/badge/Mon%20CV-14B8A6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"></a>
 
-<sub>Mon portfolio a un vrai terminal et un menu rapide : essayez Ctrl / ⌘ + K.</sub>
 
 </div>
 
