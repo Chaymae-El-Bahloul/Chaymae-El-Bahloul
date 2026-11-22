@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/header.svg" alt="Chaymae El Bahloul, Data Science student" width="100%">
+<img src="assets/header-en.svg" alt="Chaymae El Bahloul, Data Science student" width="100%">
 
 <img src="assets/roles.svg" alt="Data Science and Data Engineering student, and AI enthusiast: complete applications, from the database to the interface" width="100%">
 
@@ -49,7 +49,7 @@ $ ./chaymae --boot
 [ WAIT ] Waiting for your message ... c.elbahloul2898@uca.ac.ma
 ```
 
-<p align="center"><img src="assets/stats.svg" alt="Key figures: 7 projects, 2 internships, 3 languages, 3 certifications" width="100%"></p>
+<p align="center"><img src="assets/stats-en.svg" alt="Key figures: 7 projects, 2 internships, 3 languages, 3 certifications" width="100%"></p>
 
 ## Choose your mission
 
@@ -116,7 +116,7 @@ Query my terminal, or try my interactive portfolio.
 | **Analyze and visualize** data to support decisions | Supermarket Dashboard, GraphGen |
 | **Add AI** where it brings real value | RC Gestion (3 ML models), AI ChatBot |
 
-<p align="center"><img src="assets/method.svg" alt="My method: an idea, a database, business logic, the interface, a touch of AI, then a ready application" width="100%"></p>
+<p align="center"><img src="assets/method-en.svg" alt="My method: an idea, a database, business logic, the interface, a touch of AI, then a ready application" width="100%"></p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
@@ -242,9 +242,9 @@ Desktop application for student management (add, edit, delete, search, display).
 
 ## My tools
 
-<p align="center"><img src="assets/orbit.svg" alt="My tools orbiting around Data and AI: Python, SQL, R, Flask, Streamlit, Docker, Git, MySQL, SQLite, Spark, Kafka, Hadoop, Power BI" width="100%"></p>
+<p align="center"><img src="assets/orbit-en.svg" alt="My tools orbiting around Data and AI: Python, SQL, R, Flask, Streamlit, Docker, Git, MySQL, SQLite, Spark, Kafka, Hadoop, Power BI" width="100%"></p>
 
-<p align="center"><img src="assets/skills.svg" alt="Technologies ranked by number of projects: Python 6, databases 3, Streamlit 2, Flask 2, Plotly 2, AI 2, Docker 1, C 1" width="100%"></p>
+<p align="center"><img src="assets/skills-en.svg" alt="Technologies ranked by number of projects: Python 6, databases 3, Streamlit 2, Flask 2, Plotly 2, AI 2, Docker 1, C 1" width="100%"></p>
 
 *Expand a domain to see the full arsenal.*
 
@@ -290,8 +290,8 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="assets/donut.svg" alt="Breakdown of my 7 projects by type: 3 web applications, 1 visualization, 1 data engineering, 1 conversational AI, 1 desktop application" width="100%"></td>
-<td width="50%" align="center"><img src="assets/radar.svg" alt="Radar of my toolbox: languages 6, web 4, databases 4, big data 6, AI 4, tools 6" width="100%"></td>
+<td width="50%" align="center"><img src="assets/donut-en.svg" alt="Breakdown of my 7 projects by type: 3 web applications, 1 visualization, 1 data engineering, 1 conversational AI, 1 desktop application" width="100%"></td>
+<td width="50%" align="center"><img src="assets/radar-en.svg" alt="Radar of my toolbox: languages 6, web 4, databases 4, big data 6, AI 4, tools 6" width="100%"></td>
 </tr>
 </table>
 
@@ -299,7 +299,7 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 ## Live pipeline
 
-<p align="center"><img src="assets/pipeline.svg" alt="Live data pipeline that rebuilds this profile every day: extract from the GitHub API, transform with Python, load into this README" width="100%"></p>
+<p align="center"><img src="assets/pipeline-en.svg" alt="Live data pipeline that rebuilds this profile every day: extract from the GitHub API, transform with Python, load into this README" width="100%"></p>
 
 <details>
 <summary><b>Show the last run log</b></summary>
@@ -310,7 +310,7 @@ $ ./pipeline --status
 
 [  OK  ] extract ...... 6 repositories, 13 API calls
 [  OK  ] transform .... 6 languages, 21 commits in 30 days
-[  OK  ] load ......... assets/pipeline.svg, data/history.csv
+[  OK  ] load ......... assets/pipeline-en.svg, data/history.csv
 [ INFO ] last run ..... 2026-11-22 04:57 UTC (run #2)
 ```
 <!--PIPELINE:END-->
@@ -400,7 +400,7 @@ chaymae = {
 
 ## Git log
 
-<p align="center"><img src="assets/timeline.svg" alt="Timeline of my journey from 2023 to 2027" width="100%"></p>
+<p align="center"><img src="assets/timeline-en.svg" alt="Timeline of my journey from 2023 to 2027" width="100%"></p>
 
 *My journey, told like a commit history.*
 
@@ -495,6 +495,6 @@ Certificate of participation in the webinar series "Industry 4.0 and Digital Tra
 
 </div>
 
-<p align="center"><img src="assets/footer.svg" alt="Let's build something with data" width="100%"></p>
+<p align="center"><img src="assets/footer-en.svg" alt="Let's build something with data" width="100%"></p>
 
 <p align="center"><a href="./README.md"><img src="./assets/lang-en-on.svg" alt="English (current language)" height="30"/></a><a href="./README.fr.md"><img src="./assets/lang-fr-off.svg" alt="Lire en français" height="30"/></a></p>

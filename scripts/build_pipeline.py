@@ -4,7 +4,8 @@ README-as-a-pipeline.
 
 EXTRACT   GitHub REST API (public repositories, languages, recent commits)
 TRANSFORM aggregate and rank the numbers (Python standard library only)
-LOAD      assets/pipeline.svg  +  data/history.csv  +  status block in README.md
+LOAD      assets/pipeline-en.svg + assets/pipeline-fr.svg + data/history.csv
+          + status block in README.md (English) and README.fr.md (French)
 
 Run daily by .github/workflows/pipeline.yml. No third-party dependency.
 """
@@ -24,8 +25,62 @@ ROOT = Path(__file__).resolve().parent.parent
 USER = os.environ.get("GH_USER", "Chaymae-El-Bahloul")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 HISTORY = ROOT / "data" / "history.csv"
-SVG_OUT = ROOT / "assets" / "pipeline.svg"
-README = ROOT / "README.md"
+LANGS = ("en", "fr")
+
+
+def svg_path(lang):
+    return ROOT / "assets" / f"pipeline-{lang}.svg"
+
+
+def readme_path(lang):
+    name = "README.md" if lang == "en" else "README.fr.md"
+    p = ROOT / name
+    if not p.exists() and lang == "en" and (ROOT / "Readme.md").exists():
+        p = ROOT / "Readme.md"
+    return p
+
+
+# All visible text, per language.
+I18N = {
+    "en": {
+        "aria": "Live data pipeline that rebuilds this profile every day: extract from the GitHub API, transform with Python, load into this README",
+        "title": "pipeline.py  --  this profile is the output of a data pipeline",
+        "runs": "runs daily 00:00 UTC",
+        "extract": "EXTRACT", "transform": "TRANSFORM", "load": "LOAD",
+        "api": "GitHub REST API", "repos": "repositories", "calls": "API calls",
+        "stdlib": "Python, standard library only", "ranked": "languages ranked",
+        "commits_days": "commits, {d} days", "loadsub": "README + SVG + CSV",
+        "langs_title": "Languages, share of code bytes", "last30": "Last 30 days",
+        "commits": "commits", "projects": "public projects",
+        "trend": "Commit trend, one point per run",
+        "collecting": "collecting history", "points": "data point(s) so far",
+        "await": "Awaiting the first run", "await2": "Actions tab > Update pipeline > Run workflow",
+        "foot": "last run {time}  |  run #{n}  |  most recent push: {repo}",
+        "foot_wait": "status: waiting for the first scheduled run",
+        "log_extract": "extract", "log_transform": "transform", "log_load": "load", "log_last": "last run",
+        "log_repos": "{n} repositories, {c} API calls",
+        "log_langs": "{l} languages, {k} commits in {d} days",
+    },
+    "fr": {
+        "aria": "Pipeline de données en direct qui reconstruit ce profil chaque jour : extraction depuis l'API GitHub, transformation avec Python, chargement dans ce README",
+        "title": "pipeline.py  --  ce profil est le résultat d'un pipeline de données",
+        "runs": "exécuté chaque jour à 00:00 UTC",
+        "extract": "EXTRACTION", "transform": "TRANSFORMATION", "load": "CHARGEMENT",
+        "api": "API REST GitHub", "repos": "dépôts", "calls": "appels API",
+        "stdlib": "Python, bibliothèque standard", "ranked": "langages classés",
+        "commits_days": "commits, {d} jours", "loadsub": "README + SVG + CSV",
+        "langs_title": "Langages, part des octets de code", "last30": "30 derniers jours",
+        "commits": "commits", "projects": "projets publics",
+        "trend": "Tendance, un point par exécution",
+        "collecting": "historique en cours de collecte", "points": "point(s) pour l'instant",
+        "await": "En attente de la première exécution", "await2": "Onglet Actions > Update pipeline > Run workflow",
+        "foot": "dernière exécution {time}  |  n°{n}  |  dernier push : {repo}",
+        "foot_wait": "statut : en attente de la première exécution planifiée",
+        "log_extract": "extraction", "log_transform": "transformation", "log_load": "chargement", "log_last": "dernière exécution",
+        "log_repos": "{n} dépôts, {c} appels API",
+        "log_langs": "{l} langages, {k} commits sur {d} jours",
+    },
+}
 WINDOW_DAYS = 30
 MAX_REPOS = 40
 
@@ -139,11 +194,11 @@ def flow(x1, x2, color, uid):
     return out
 
 
-def sparkline(rows, x, y, w, h):
+def sparkline(rows, x, y, w, h, L):
     vals = [int(r["commits_30d"]) for r in rows][-30:]
     if len(vals) < 2:
-        return (t(x + w / 2, y + h / 2 - 4, "collecting history", 12, C_MUTED, anchor="middle")
-                + t(x + w / 2, y + h / 2 + 14, f"{len(vals)} data point(s) so far", 11, C_MUTED, anchor="middle"))
+        return (t(x + w / 2, y + h / 2 - 4, L["collecting"], 12, C_MUTED, anchor="middle")
+                + t(x + w / 2, y + h / 2 + 14, f"{len(vals)} {L['points']}", 11, C_MUTED, anchor="middle"))
     lo, hi = min(vals), max(vals)
     span = (hi - lo) or 1
     pts = [(x + i * w / (len(vals) - 1), y + h - (v - lo) / span * h) for i, v in enumerate(vals)]
@@ -159,30 +214,30 @@ def sparkline(rows, x, y, w, h):
     )
 
 
-def render_svg(s, rows):
+def render_svg(s, rows, lang="en"):
+    L = I18N[lang]
     ready = s is not None
     top = s["top"] if ready else []
     parts = [
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450" role="img" '
-        'aria-label="Live data pipeline that rebuilds this profile every day: extract from the GitHub API, '
-        'transform with Python, load into this README">',
+        f'aria-label="{escape(L["aria"], {chr(34): "&quot;"})}">',
         f'<rect width="1000" height="450" rx="18" fill="{C_BG}" stroke="{C_EDGE}"/>',
         '<circle cx="30" cy="30" r="6" fill="#FF5F57"/><circle cx="50" cy="30" r="6" fill="#FEBC2E"/><circle cx="70" cy="30" r="6" fill="#28C840"/>',
-        t(95, 35, "pipeline.py  --  this profile is the output of a data pipeline", 13, C_MUTED),
-        t(960, 35, "runs daily 00:00 UTC", 12, C_MUTED, anchor="end"),
-        stage(40, C_ORANGE, "01", "EXTRACT", "GitHub REST API",
-              f"{s['repos']} repositories" if ready else "-- repositories",
-              f"{s['api_calls']} API calls" if ready else "-- API calls"),
-        stage(375, C_TEAL, "02", "TRANSFORM", "Python, standard library only",
-              f"{s['languages']} languages ranked" if ready else "-- languages ranked",
-              f"{s['commits_30d']} commits, {WINDOW_DAYS} days" if ready else f"-- commits, {WINDOW_DAYS} days"),
-        stage(710, C_PURPLE, "03", "LOAD", "README + SVG + CSV",
-              "assets/pipeline.svg", "data/history.csv"),
+        t(95, 35, L["title"], 13, C_MUTED),
+        t(960, 35, L["runs"], 12, C_MUTED, anchor="end"),
+        stage(40, C_ORANGE, "01", L["extract"], L["api"],
+              f"{s['repos']} {L['repos']}" if ready else f"-- {L['repos']}",
+              f"{s['api_calls']} {L['calls']}" if ready else f"-- {L['calls']}"),
+        stage(375, C_TEAL, "02", L["transform"], L["stdlib"],
+              f"{s['languages']} {L['ranked']}" if ready else f"-- {L['ranked']}",
+              f"{s['commits_30d']} " + L["commits_days"].format(d=WINDOW_DAYS) if ready else "-- " + L["commits_days"].format(d=WINDOW_DAYS)),
+        stage(710, C_PURPLE, "03", L["load"], L["loadsub"],
+              f"assets/pipeline-{lang}.svg", "data/history.csv"),
         flow(290, 375, C_ORANGE, "f1"),
         flow(625, 710, C_TEAL, "f2"),
         # panels
         f'<rect x="40" y="205" width="440" height="190" rx="12" fill="#111A33" stroke="{C_EDGE}"/>',
-        t(60, 232, "Languages, share of code bytes", 13, C_TEXT, "700", mono=False),
+        t(60, 232, L["langs_title"], 13, C_TEXT, "700", mono=False),
     ]
     palette = [C_ORANGE, C_TEAL, C_PURPLE, "#38BDF8", "#F59E0B"]
     if ready and top:
@@ -195,57 +250,66 @@ def render_svg(s, rows):
                          f'<animate attributeName="width" from="0" to="{width:.0f}" dur="1.2s" begin="{i * 0.15}s" fill="freeze"/></rect>')
             parts.append(t(400, y + 4, f"{pct}%", 12, C_MUTED))
     else:
-        parts.append(t(260, 315, "Awaiting the first run", 14, C_MUTED, mono=False, anchor="middle"))
-        parts.append(t(260, 337, "Actions tab > Update pipeline > Run workflow", 11, C_MUTED, anchor="middle"))
+        parts.append(t(260, 315, L["await"], 14, C_MUTED, mono=False, anchor="middle"))
+        parts.append(t(260, 337, L["await2"], 11, C_MUTED, anchor="middle"))
 
     parts += [
         f'<rect x="500" y="205" width="200" height="190" rx="12" fill="#111A33" stroke="{C_EDGE}"/>',
-        t(520, 232, "Last 30 days", 13, C_TEXT, "700", mono=False),
+        t(520, 232, L["last30"], 13, C_TEXT, "700", mono=False),
         t(520, 285, str(s["commits_30d"]) if ready else "--", 38, C_ORANGE, "700", mono=False),
-        t(520, 305, "commits", 12, C_MUTED, mono=False),
+        t(520, 305, L["commits"], 12, C_MUTED, mono=False),
         t(520, 352, str(s["repos"]) if ready else "--", 38, C_TEAL, "700", mono=False),
-        t(520, 372, "public projects", 12, C_MUTED, mono=False),
+        t(520, 372, L["projects"], 12, C_MUTED, mono=False),
         f'<rect x="720" y="205" width="240" height="190" rx="12" fill="#111A33" stroke="{C_EDGE}"/>',
-        t(740, 232, "Commit trend, one point per run", 13, C_TEXT, "700", mono=False),
-        sparkline(rows, 745, 262, 190, 90) if rows else "",
+        t(740, 232, L["trend"], 13, C_TEXT, "700", mono=False),
+        sparkline(rows, 745, 262, 190, 90, L) if rows else "",
         # footer
         '<circle cx="48" cy="423" r="5" fill="#28C840"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>',
-        t(62, 427, (f"last run {s['time']}  |  run #{len(rows)}  |  most recent push: {s['latest_repo']}"
-                    if ready else "status: waiting for the first scheduled run"), 12, C_MUTED),
+        t(62, 427, (L["foot"].format(time=s["time"], n=len(rows), repo=s["latest_repo"])
+                    if ready else L["foot_wait"]), 12, C_MUTED),
         '</svg>',
     ]
     return "\n".join(parts)
 
 
-def update_readme(s, rows):
-    if not README.exists():
+def update_readme(s, rows, lang):
+    path = readme_path(lang)
+    if not path.exists():
         return
+    L = I18N[lang]
+    pad = max(len(L["log_extract"]), len(L["log_transform"]), len(L["log_load"]), len(L["log_last"]))
+
+    def line(tag, key, text):
+        return f"[{tag}] {L[key]} " + "." * (pad - len(L[key]) + 4) + f" {text}"
+
     block = "\n".join([
         "<!--PIPELINE:START-->",
         "```text",
         "$ ./pipeline --status",
         "",
-        f"[  OK  ] extract ...... {s['repos']} repositories, {s['api_calls']} API calls",
-        f"[  OK  ] transform .... {s['languages']} languages, {s['commits_30d']} commits in {WINDOW_DAYS} days",
-        "[  OK  ] load ......... assets/pipeline.svg, data/history.csv",
-        f"[ INFO ] last run ..... {s['time']} (run #{len(rows)})",
+        line("  OK  ", "log_extract", L["log_repos"].format(n=s["repos"], c=s["api_calls"])),
+        line("  OK  ", "log_transform", L["log_langs"].format(l=s["languages"], k=s["commits_30d"], d=WINDOW_DAYS)),
+        line("  OK  ", "log_load", f"assets/pipeline-{lang}.svg, data/history.csv"),
+        line(" INFO ", "log_last", f"{s['time']} (run #{len(rows)})"),
         "```",
         "<!--PIPELINE:END-->",
     ])
-    text = README.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8")
     new = re.sub(r"<!--PIPELINE:START-->.*?<!--PIPELINE:END-->", lambda _: block, text, flags=re.S)
     if new != text:
-        README.write_text(new, encoding="utf-8")
+        path.write_text(new, encoding="utf-8")
 
 
 def main():
     if "--placeholder" in sys.argv:  # initial asset, before any real run
-        SVG_OUT.write_text(render_svg(None, []), encoding="utf-8")
+        for lang in LANGS:
+            svg_path(lang).write_text(render_svg(None, [], lang), encoding="utf-8")
         return
     snapshot = transform(extract())
     rows = load_history(snapshot)
-    SVG_OUT.write_text(render_svg(snapshot, rows), encoding="utf-8")
-    update_readme(snapshot, rows)
+    for lang in LANGS:
+        svg_path(lang).write_text(render_svg(snapshot, rows, lang), encoding="utf-8")
+        update_readme(snapshot, rows, lang)
     print(json.dumps(snapshot, indent=2))
 
 

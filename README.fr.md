@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/header.svg" alt="Chaymae El Bahloul, étudiante en Data Science" width="100%">
+<img src="assets/header-fr.svg" alt="Chaymae El Bahloul, étudiante en Data Science" width="100%">
 
 <img src="assets/roles.svg" alt="Étudiante en Data Science et Data Engineering, passionnée d'IA : des applications complètes, de la base de données à l'interface" width="100%">
 
@@ -49,7 +49,7 @@ $ ./chaymae --boot
 [ WAIT ] En attente de votre message  c.elbahloul2898@uca.ac.ma
 ```
 
-<p align="center"><img src="assets/stats.svg" alt="Chiffres clés : 7 projets, 2 stages, 3 langues, 3 certifications" width="100%"></p>
+<p align="center"><img src="assets/stats-fr.svg" alt="Chiffres clés : 7 projets, 2 stages, 3 langues, 3 certifications" width="100%"></p>
 
 ## Choisissez votre mission
 
@@ -116,7 +116,7 @@ Interrogez mon terminal, ou essayez mon portfolio interactif.
 | **Analyser et visualiser** des données pour aider à décider | Supermarket Dashboard, GraphGen |
 | **Ajouter de l'IA** là où elle apporte une vraie valeur | RC Gestion (3 modèles de ML), AI ChatBot |
 
-<p align="center"><img src="assets/method.svg" alt="Ma méthode : une idée, une base de données, la logique métier, l'interface, une touche d'IA, puis une application prête" width="100%"></p>
+<p align="center"><img src="assets/method-fr.svg" alt="Ma méthode : une idée, une base de données, la logique métier, l'interface, une touche d'IA, puis une application prête" width="100%"></p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
@@ -242,9 +242,9 @@ Application de bureau pour la gestion des étudiants (ajout, modification, suppr
 
 ## Mes outils
 
-<p align="center"><img src="assets/orbit.svg" alt="Mes outils en orbite autour de la Data et de l'IA : Python, SQL, R, Flask, Streamlit, Docker, Git, MySQL, SQLite, Spark, Kafka, Hadoop, Power BI" width="100%"></p>
+<p align="center"><img src="assets/orbit-fr.svg" alt="Mes outils en orbite autour de la Data et de l'IA : Python, SQL, R, Flask, Streamlit, Docker, Git, MySQL, SQLite, Spark, Kafka, Hadoop, Power BI" width="100%"></p>
 
-<p align="center"><img src="assets/skills.svg" alt="Technologies classées par nombre de projets : Python 6, bases de données 3, Streamlit 2, Flask 2, Plotly 2, IA 2, Docker 1, C 1" width="100%"></p>
+<p align="center"><img src="assets/skills-fr.svg" alt="Technologies classées par nombre de projets : Python 6, bases de données 3, Streamlit 2, Flask 2, Plotly 2, IA 2, Docker 1, C 1" width="100%"></p>
 
 *Ouvrez un domaine pour voir tout l'arsenal.*
 
@@ -290,8 +290,8 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="assets/donut.svg" alt="Répartition de mes 7 projets par type : 3 applications web, 1 visualisation, 1 data engineering, 1 IA conversationnelle, 1 application de bureau" width="100%"></td>
-<td width="50%" align="center"><img src="assets/radar.svg" alt="Radar de ma boîte à outils : langages 6, web 4, bases de données 4, big data 6, IA 4, outils 6" width="100%"></td>
+<td width="50%" align="center"><img src="assets/donut-fr.svg" alt="Répartition de mes 7 projets par type : 3 applications web, 1 visualisation, 1 data engineering, 1 IA conversationnelle, 1 application de bureau" width="100%"></td>
+<td width="50%" align="center"><img src="assets/radar-fr.svg" alt="Radar de ma boîte à outils : langages 6, web 4, bases de données 4, big data 6, IA 4, outils 6" width="100%"></td>
 </tr>
 </table>
 
@@ -299,7 +299,7 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 
 ## Pipeline en direct
 
-<p align="center"><img src="assets/pipeline.svg" alt="Pipeline de données en direct qui reconstruit ce profil chaque jour : extraction depuis l'API GitHub, transformation avec Python, chargement dans ce README" width="100%"></p>
+<p align="center"><img src="assets/pipeline-fr.svg" alt="Pipeline de données en direct qui reconstruit ce profil chaque jour : extraction depuis l'API GitHub, transformation avec Python, chargement dans ce README" width="100%"></p>
 
 <details>
 <summary><b>Afficher le journal de la dernière exécution</b></summary>
@@ -308,10 +308,10 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 ```text
 $ ./pipeline --status
 
-[  OK  ] extract ...... 6 repositories, 13 API calls
-[  OK  ] transform .... 6 languages, 21 commits in 30 days
-[  OK  ] load ......... assets/pipeline.svg, data/history.csv
-[ INFO ] last run ..... 2026-11-22 04:57 UTC (run #2)
+[  OK  ] extraction ............ 6 dépôts, 13 appels API
+[  OK  ] transformation ........ 6 langages, 21 commits sur 30 jours
+[  OK  ] chargement ............ assets/pipeline-fr.svg, data/history.csv
+[ INFO ] dernière exécution .... 2026-11-22 04:57 UTC (run #2)
 ```
 <!--PIPELINE:END-->
 
@@ -400,7 +400,7 @@ chaymae = {
 
 ## Git log
 
-<p align="center"><img src="assets/timeline.svg" alt="Frise de mon parcours de 2023 à 2027" width="100%"></p>
+<p align="center"><img src="assets/timeline-fr.svg" alt="Frise de mon parcours de 2023 à 2027" width="100%"></p>
 
 *Mon parcours, raconté comme un historique de commits.*
 
@@ -495,6 +495,6 @@ Attestation de participation à la série de webinaires « Industrie 4.0 et tran
 
 </div>
 
-<p align="center"><img src="assets/footer.svg" alt="Construisons quelque chose avec la donnée" width="100%"></p>
+<p align="center"><img src="assets/footer-fr.svg" alt="Construisons quelque chose avec la donnée" width="100%"></p>
 
 <p align="center"><a href="./README.md"><img src="./assets/lang-en-off.svg" alt="Read in English" height="30"/></a><a href="./README.fr.md"><img src="./assets/lang-fr-on.svg" alt="Français (langue actuelle)" height="30"/></a></p>
