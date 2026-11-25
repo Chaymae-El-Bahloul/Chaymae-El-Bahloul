@@ -309,9 +309,9 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 $ ./pipeline --status
 
 [  OK  ] extract ...... 6 repositories, 13 API calls
-[  OK  ] transform .... 6 languages, 21 commits in 30 days
+[  OK  ] transform .... 6 languages, 13 commits in 30 days
 [  OK  ] load ......... assets/pipeline-en.svg, data/history.csv
-[ INFO ] last run ..... 2026-11-24 08:18 UTC (run #4)
+[ INFO ] last run ..... 2026-11-25 06:55 UTC (run #5)
 ```
 <!--PIPELINE:END-->
 
