@@ -308,10 +308,10 @@ Git / GitHub, Docker, Ubuntu, WSL, VirtualBox, VS Code
 ```text
 $ ./pipeline --status
 
-[  OK  ] extraction ............ 6 dépôts, 13 appels API
-[  OK  ] transformation ........ 6 langages, 13 commits sur 30 jours
+[  OK  ] extraction ............ 7 dépôts, 15 appels API
+[  OK  ] transformation ........ 6 langages, 24 commits sur 30 jours
 [  OK  ] chargement ............ assets/pipeline-fr.svg, data/history.csv
-[ INFO ] dernière exécution .... 2026-11-25 06:55 UTC (run #5)
+[ INFO ] dernière exécution .... 2026-11-26 06:45 UTC (run #6)
 ```
 <!--PIPELINE:END-->
 
