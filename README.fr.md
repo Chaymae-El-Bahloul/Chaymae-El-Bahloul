@@ -311,7 +311,7 @@ $ ./pipeline --status
 [  OK  ] extraction ............ 7 dépôts, 15 appels API
 [  OK  ] transformation ........ 6 langages, 24 commits sur 30 jours
 [  OK  ] chargement ............ assets/pipeline-fr.svg, data/history.csv
-[ INFO ] dernière exécution .... 2026-11-26 06:45 UTC (run #6)
+[ INFO ] dernière exécution .... 2026-11-27 06:37 UTC (run #7)
 ```
 <!--PIPELINE:END-->
 
